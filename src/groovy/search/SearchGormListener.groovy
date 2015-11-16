@@ -14,11 +14,12 @@ import app.AbstractGraphDomain
 
 class SearchGormListener extends AbstractPersistenceEventListener {
 
-    Log log = LogFactory.getLog(SearchGormListener)
-    SearchService searchService
+    private Log log = LogFactory.getLog(SearchGormListener)
+    private SearchService searchService
 
-    public SearchGormListener(final Datastore datastore) {
+    public SearchGormListener(final Datastore datastore, final SearchService searchService) {
         super(datastore)
+        this.searchService = searchService
     }
 
     @Override

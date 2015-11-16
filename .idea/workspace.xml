@@ -2,199 +2,649 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="343df94a-f620-44de-b78c-ccdb2b0689a0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/AssetPipelineGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/full-tree/full_tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/not-included/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/test/test_full_tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/test/test_tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/absolute-path/tree/tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/gstringtest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/gstringtest2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/libs/file_a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/libs/file_b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/libs/file_c.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/libs/subset/subset_a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test_ext.javascript" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test_full_tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/asset-pipeline/test/test_multiple_file_directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/META-INF/assets/grails_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/grails-app/conf/AssetPipelineBootStrap.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/grails-app/services/asset/pipeline/grails/AssetProcessorService.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/grails-app/taglib/asset/pipeline/grails/AssetMethodTagLib.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/grails-app/taglib/asset/pipeline/grails/AssetsTagLib.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/AssetClean.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/AssetPrecompile.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/_AssetCompile.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/_Events.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/scripts/_Install.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/configuration.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/extending.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/extending/assetfile.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/extending/postprocessors.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/extending/processors.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/introduction.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/releases.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/releases/rel2.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/toc.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage/directives.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage/encoding.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage/linking.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/guide/usage/organization.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Command Line/asset-clean.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Command Line/asset-compile.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Command Line/asset-precompile.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Spring Beans/assetResourceLocator.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/assetPath.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/assetPathExists.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/deferredScripts.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/image.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/javascript.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/link.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/script.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/docs/ref/Tags/stylesheet.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/AssetAttributes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/AssetPipelineFilter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/AssetResourceLocator.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/CachingLinkGenerator.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/LinkGenerator.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/ProductionAssetCache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/fs/EmptyResource.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/fs/SpringAssetCache.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/asset-pipeline-2.5.7/src/groovy/asset/pipeline/grails/fs/SpringResourceAssetResolver.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/CacheGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/grails-app/conf/DefaultCacheConfig.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/grails-app/services/grails/plugin/cache/GrailsCacheAdminService.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/grails-app/taglib/grails/plugin/cache/CacheTagLib.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/groovy/grails/plugin/cache/ConfigBuilder.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/groovy/grails/plugin/cache/ConfigLoader.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/BlockingCache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CacheBeanPostProcessor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CacheConfigArtefactHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CacheConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CacheEvict.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CachePut.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/Cacheable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/CustomCacheKeyGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsAnnotationCacheOperationSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsCache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsCacheManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsConcurrentMapCache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsConcurrentMapCacheManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/GrailsValueWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/SerializableByteArrayOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/SerializableOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/SimpleKeyGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/Timer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/compiler/CacheTransformation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/util/ClassUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/AlreadyGzippedException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/ContentCacheParameters.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/GenericResponseWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/Header.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/HttpDateFormatter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/PageInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/SerializableCookie.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/AbstractFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/CacheExpressionRootObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/CacheOperationContext.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/DefaultWebKeyGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/ExpressionEvaluator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/LazyParamAwareEvaluationContext.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/NoOpFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/PageFragmentCachingFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/WebKeyGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/simple/MemoryBlockingCache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/simple/MemoryCacheConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/simple/MemoryPageFragmentCachingFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/Hibernate4GrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/scripts/CreateHibernateCfgXml.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/scripts/SchemaExport.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.10/src/java/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/neo4j-5.0.0.BUILD-SNAPSHOT/Neo4jGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/neo4j-5.0.0.BUILD-SNAPSHOT/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/neo4j-5.0.0.BUILD-SNAPSHOT/dependencies.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/neo4j-5.0.0.BUILD-SNAPSHOT/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/ScaffoldingGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/CreateScaffoldController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateAll.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateAsyncController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateRestfulController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/GenerateViews.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/_Events.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/scripts/_GrailsGenerate.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/groovy/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/DomainClassPropertyComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/GrailsTemplateGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/SimpleDomainClassPropertyComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/view/ScaffoldedGroovyPageView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/java/org/codehaus/groovy/grails/scaffolding/view/ScaffoldingViewResolver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/artifacts/ScaffoldingController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/AsyncController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/AsyncSpec.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/Controller.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/RestfulController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/RestfulSpec.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/Spec.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/_form.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/create.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/edit.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/index.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/renderEditor.template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2/src/templates/scaffolding/show.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/TomcatGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/grails-plugin-tomcat-7.0.55.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/scripts/Tomcat.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/scripts/_Events.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/src/groovy/org/grails/plugins/tomcat/InlineExplodedTomcatServer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/src/groovy/org/grails/plugins/tomcat/TomcatLoader.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/src/groovy/org/grails/plugins/tomcat/TomcatServer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/src/groovy/org/grails/plugins/tomcat/TomcatServerFactory.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/src/groovy/org/grails/plugins/tomcat/fork/ForkedTomcatServer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/src/groovy/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/src/groovy/org/grails/plugins/tomcat/fork/TomcatExecutionContext.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/src/groovy/org/grails/plugins/tomcat/fork/TomcatWarRunner.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/src/java/org/grails/plugins/tomcat/ParentDelegatingClassLoader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55.3/src/java/org/grails/plugins/tomcat/TomcatKillSwitch.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/WebxmlGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/dependencies.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/grails-app/conf/DefaultWebXmlConfig.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/scripts/CreateWebXmlConfig.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/scripts/_Events.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/src/groovy/grails/plugin/webxml/FilterManager.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/src/samples/_WebXmlConfig.groovy" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/app/SearchController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/app/SearchControllerSpec.groovy" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/scriptCache/IdeaPrintProjectSettings$_run_closure1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/scriptCache/IdeaPrintProjectSettings.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/scriptCache/LinkedProperties.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/scriptCache/ListEnumeration.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/search/SearchService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/search/SearchService.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solr/conf/schema.xml" afterPath="$PROJECT_DIR$/solr/conf/schema.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovy/search/SearchGormListener.groovy" afterPath="$PROJECT_DIR$/src/groovy/search/SearchGormListener.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/LICENSE.txt" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/grails-app/conf/DefaultWebXmlConfig.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/grails-app/conf/DefaultWebXmlConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/src/samples/_WebXmlConfig.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/src/samples/_WebXmlConfig.groovy" />
     </list>
     <ignored path="neo4j-app.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$USER_HOME$/.grails/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_commons_DefaultGrailsControllerClass_13234.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_commons_ClassPropertyFetcher_11162.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_commons_ClassPropertyFetcher$GetterPropertyFetcher_1979.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_commons_ArtefactHandlerAdapter_4855.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_commons_AnnotationDomainClassArtefactHandler_1961.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_commons_AbstractGrailsClass_9426.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_cli_support_GrailsStarter_8744.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_cli_support_GrailsBuildEventListener_9661.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_cli_support_ClasspathConfigurer_9897.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_cli_api_BaseSettingsApi_16311.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_reflection_stdclasses_CachedSAMClass$1_992.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_reflection_GroovyClassValueFactory_2167.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_reflection_stdclasses_CachedSAMClass_7439.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_reflection_CachedMethod_9886.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_reflection_GeneratedMetaMethod$Proxy_3278.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_reflection_ClassLoaderForClassArtifacts_3821.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_reflection_CachedClass_12888.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_reflection_CachedField_2208.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_reflection_CachedConstructor_4586.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_reflection_CachedClass$1$1_1336.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_reflection_CachedClass$3$1_1456.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_reflection_CachedClass$2$1_1042.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_plugins_web_api_ControllersApi_20640.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_validation_ConstrainedProperty_27204.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_web_servlet_mvc_GrailsWebRequest_16939.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_plugins_DefaultGrailsPlugin_28004.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_plugins_GrailsVersionUtils_6519.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_plugins_log4j_web_util_Log4jConfigListener_3424.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_plugins_services_ServicesGrailsPlugin_5423.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_compiler_injection_GrailsAwareInjectionOperation_6460.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_compiler_DirectoryWatcher_3946.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_orm_hibernate_cfg_AbstractGrailsDomainBinder_87416.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_io_support_GrailsResourceUtils_18011.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_plugins_AbstractGrailsPluginManager_17000.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_plugins_DefaultGrailsPluginManager_30892.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_commons_DomainClassArtefactHandler_5019.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_commons_GrailsClassUtils_25895.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_IntrospectionHelper$AddNestedCreator_2486.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_IntrospectionHelper$9_2119.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_IntrospectionHelper$8_1861.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_IntrospectionHelper$7_1695.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_IntrospectionHelper$5_1777.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_ProjectHelperRepository$ConstructingIterator_2285.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_IntrospectionHelper_26826.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_IntrospectionHelper$CreateNestedCreator_1174.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_IntrospectionHelper$AttributeSetter_2558.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_AntClassLoader_25696.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_AntTypeDefinition_7806.bytes" />
+    <ignored path=".slcache/org_springframework_web_util_UrlPathHelper_11364.bytes" />
+    <ignored path=".slcache/org_apache_solr_schema_IndexSchema_33159.bytes" />
+    <ignored path=".slcache/org_apache_tomcat_util_net_SSLImplementation_3036.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_IntrospectionHelper$13_2062.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_IntrospectionHelper$3_1624.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_IntrospectionHelper$10_2522.bytes" />
+    <ignored path=".slcache/org_springframework_util_ReflectionUtils_14205.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_IntrospectionHelper$11_3088.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_ComponentHelper_25440.bytes" />
+    <ignored path=".slcache/org_apache_log4j_spi_LoggingEvent_9937.bytes" />
+    <ignored path=".slcache/org_apache_log4j_spi_LocationInfo_6637.bytes" />
+    <ignored path=".slcache/org_apache_solr_client_solrj_beans_DocumentObjectBinder_6437.bytes" />
+    <ignored path=".slcache/org_apache_maven_model_interpolation_StringSearchModelInterpolator$InterpolateObjectAction$StringField_1833.bytes" />
+    <ignored path=".slcache/org_apache_solr_core_SolrResourceLoader_18202.bytes" />
+    <ignored path=".slcache/org_apache_solr_core_SolrCore_48980.bytes" />
+    <ignored path=".slcache/org_apache_maven_model_interpolation_StringSearchModelInterpolator$InterpolateObjectAction$ListField_2678.bytes" />
+    <ignored path=".slcache/org_apache_maven_model_interpolation_StringSearchModelInterpolator$InterpolateObjectAction$CacheItem_4610.bytes" />
+    <ignored path=".slcache/org_apache_maven_model_interpolation_StringSearchModelInterpolator$InterpolateObjectAction$ObjectField_1869.bytes" />
+    <ignored path=".slcache/org_apache_maven_model_interpolation_StringSearchModelInterpolator$InterpolateObjectAction$MapField_3038.bytes" />
+    <ignored path=".slcache/javax_servlet_http_HttpServlet_8296.bytes" />
+    <ignored path=".slcache/jline_TerminalFactory_4721.bytes" />
+    <ignored path=".slcache/org_apache_catalina_connector_Connector_15735.bytes" />
+    <ignored path=".slcache/org_apache_ivy_core_settings_IvySettings_42964.bytes" />
+    <ignored path=".slcache/org_apache_log4j_config_PropertySetter_8022.bytes" />
+    <ignored path=".slcache/org_apache_log4j_helpers_Loader_4244.bytes" />
+    <ignored path=".slcache/org_apache_log4j_helpers_OptionConverter_10730.bytes" />
+    <ignored path=".slcache/org_apache_catalina_deploy_NamingResources_24873.bytes" />
+    <ignored path=".slcache/org_apache_http_impl_client_AbstractHttpClient_29667.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_grails_cli_GrailsScriptRunner_31179.bytes" />
+    <ignored path=".slcache/org_springframework_core_type_filter_AnnotationTypeFilter_3344.bytes" />
+    <ignored path=".slcache/org_springframework_core_type_classreading_RecursiveAnnotationAttributesVisitor_3533.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_ast_ClassNode_37700.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_ast_FieldNode_4637.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_classgen_AnnotationVisitor_13601.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_classgen_Verifier_40344.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_classgen_asm_MethodCaller_2645.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_control_ResolveVisitor_38115.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_classgen_asm_WriterController_13539.bytes" />
+    <ignored path=".slcache/org_springframework_core_type_classreading_AnnotationAttributesReadingVisitor_4202.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_control_ParserPluginFactory_1977.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_types_selectors_modifiedselector_ModifiedSelector_15748.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_types_selectors_ExtendSelector_4912.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_util_ClasspathUtils_5433.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_util_JavaEnvUtils_8369.bytes" />
+    <ignored path=".slcache/org_apache_tools_zip_ExtraFieldUtils_6460.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_util_ReflectUtil_4296.bytes" />
+    <ignored path=".slcache/org_springframework_util_ClassUtils_24244.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_antlr_parser_GroovyLexer_61641.bytes" />
+    <ignored path=".slcache/org_springframework_orm_jpa_support_PersistenceAnnotationBeanPostProcessor_16047.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_ProjectHelperRepository_8440.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_Project_37430.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_TaskAdapter_3851.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_dispatch_DispatchUtils_3378.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_taskdefs_ProcessDestroyer_4164.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_types_EnumeratedAttribute_2473.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_types_Mapper_5939.bytes" />
+    <ignored path=".slcache/org_apache_tools_ant_types_Path_13557.bytes" />
+    <ignored path=".slcache/org_springframework_core_SerializableTypeWrapper$TypeProxyInvocationHandler_2610.bytes" />
+    <ignored path=".slcache/org_springframework_core_SerializableTypeWrapper$MethodParameterTypeProvider_2775.bytes" />
+    <ignored path=".slcache/org_springframework_core_annotation_AnnotationUtils_15330.bytes" />
+    <ignored path=".slcache/org_springframework_core_Constants_6750.bytes" />
+    <ignored path=".slcache/org_springframework_core_MethodParameter_9366.bytes" />
+    <ignored path=".slcache/org_springframework_beans_factory_support_AbstractBeanDefinition_19205.bytes" />
+    <ignored path=".slcache/org_springframework_core_$Proxy17_2849.bytes" />
+    <ignored path=".slcache/org_springframework_core_convert_TypeDescriptor_14131.bytes" />
+    <ignored path=".slcache/org_springframework_beans_BeanWrapperImpl_32546.bytes" />
+    <ignored path=".slcache/org_springframework_beans_BeanUtils_15685.bytes" />
+    <ignored path=".slcache/org_neo4j_kernel_impl_annotations_DocumentationProcessor_3652.bytes" />
+    <ignored path=".slcache/org_hibernate_mapping_Collection_18766.bytes" />
+    <ignored path=".slcache/org_hibernate_dialect_Dialect_35786.bytes" />
+    <ignored path=".slcache/org_springframework_beans_factory_config_DependencyDescriptor_7966.bytes" />
+    <ignored path=".slcache/org_springframework_beans_TypeConverterDelegate_20234.bytes" />
+    <ignored path=".slcache/org_springframework_beans_GenericTypeAwarePropertyDescriptor_5357.bytes" />
+    <ignored path=".slcache/org_springframework_beans_ExtendedBeanInfoFactory_1508.bytes" />
+    <ignored path=".slcache/com_google_inject_internal_SingleMethodInjector$1_1300.bytes" />
+    <ignored path=".slcache/com_google_inject_internal_SingleFieldInjector_3751.bytes" />
+    <ignored path=".slcache/com_google_inject_internal_ProviderMethodsModule_7719.bytes" />
+    <ignored path=".slcache/org_springframework_core_io_support_SpringFactoriesLoader_5194.bytes" />
+    <ignored path=".slcache/com_google_inject_internal_InjectorImpl_34320.bytes" />
+    <ignored path=".slcache/com_google_inject_internal_DefaultConstructionProxyFactory_2000.bytes" />
+    <ignored path=".slcache/com_google_inject_internal_DefaultConstructionProxyFactory$1_2160.bytes" />
+    <ignored path=".slcache/com_google_inject_internal_ConstructorBindingImpl_13930.bytes" />
+    <ignored path=".slcache/org_springframework_core_io_support_PathMatchingResourcePatternResolver_15859.bytes" />
+    <ignored path=".slcache/com_google_inject_internal_Annotations_6254.bytes" />
+    <ignored path=".slcache/com_google_inject_internal_Annotations$AnnotationChecker$1_2006.bytes" />
+    <ignored path=".slcache/.index" />
+    <ignored path=".slcache/com_intellij_rt_execution_application_AppMain_4910.bytes" />
+    <ignored path=".slcache/org_springframework_core_type_classreading_AbstractRecursiveAnnotationVisitor_3781.bytes" />
+    <ignored path=".slcache/com_sun_source_util_Trees_3901.bytes" />
+    <ignored path=".slcache/com_google_inject_spi_InjectionPoint_18683.bytes" />
+    <ignored path=".slcache/com_google_inject_internal_util_Classes_2349.bytes" />
+    <ignored path=".slcache/com_google_inject_matcher_Matchers_5242.bytes" />
+    <ignored path=".slcache/com_google_inject_internal_TypeConverterBindingProcessor_5802.bytes" />
+    <ignored path=".slcache/com_google_inject_internal_SingleMethodInjector_4029.bytes" />
+    <ignored path=".slcache/com_google_inject_internal_TypeConverterBindingProcessor$5_2256.bytes" />
+    <ignored path=".slcache/org_springframework_core_convert_support_IdToEntityConverter_4236.bytes" />
+    <ignored path=".slcache/grails_util_Holders_7985.bytes" />
+    <ignored path=".slcache/grails_build_logging_GrailsConsole_19931.bytes" />
+    <ignored path=".slcache/com_sun_tools_javac_processing_JavacProcessingEnvironment_28380.bytes" />
+    <ignored path=".slcache/com_sun_tools_javac_util_BaseFileManager_10346.bytes" />
+    <ignored path=".slcache/com_sun_tools_javac_model_JavacElements_20629.bytes" />
+    <ignored path=".slcache/org_springframework_core_convert_support_GenericConversionService_11901.bytes" />
+    <ignored path=".slcache/com_sun_tools_javac_processing_JavacProcessingEnvironment$ServiceIterator_3349.bytes" />
+    <ignored path=".slcache/com_sun_tools_javac_Main_1557.bytes" />
+    <ignored path=".slcache/groovyjarjarantlr_Utils_1849.bytes" />
+    <ignored path=".slcache/javassist_util_proxy_ProxyFactory_29782.bytes" />
+    <ignored path=".slcache/groovy_util_AntBuilder_15204.bytes" />
+    <ignored path=".slcache/groovy_xml_XmlUtil_9864.bytes" />
+    <ignored path=".slcache/groovyjarjarantlr_ASTFactory_6276.bytes" />
+    <ignored path=".slcache/groovyjarjarantlr_CharScanner_8286.bytes" />
+    <ignored path=".slcache/org_springframework_core_convert_support_ObjectToObjectConverter_4868.bytes" />
+    <ignored path=".slcache/groovy_grape_Grape_5162.bytes" />
+    <ignored path=".slcache/groovy_lang_GroovyShell_18444.bytes" />
+    <ignored path=".slcache/groovy_lang_MetaClassRegistry$MetaClassCreationHandle_2886.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_metaclass_ReflectionMetaMethod_2566.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_metaclass_MetaClassRegistryImpl$1_2317.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_metaclass_MetaClassRegistryImpl_18305.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_tools_javac_JavacJavaCompiler_8638.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_transform_ASTTransformationCollectorCodeVisitor_11202.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_typehandling_DefaultTypeTransformation_20039.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_transform_stc_GroovyTypeCheckingExtensionSupport_15965.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_transform_ASTTransformationVisitor_14195.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_transform_LogASTTransformation_6158.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_transform_trait_Traits_11579.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_transform_stc_StaticTypeCheckingVisitor_140768.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_transform_stc_StaticTypeCheckingSupport_53466.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_InvokerHelper_25009.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_ConversionHandler_3546.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_DefaultGroovyMethods_283588.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_callsite_PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce_1846.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_callsite_CallSiteGenerator_10303.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_callsite_AbstractCallSite_14775.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_callsite_PojoMetaMethodSite$PojoCachedMethodSiteNoUnwrapNoCoerce_1804.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_callsite_PogoMetaMethodSite$PogoCachedMethodSite_2183.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_callsite_PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrap_1980.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_m12n_StandardPropertiesModuleFactory_2376.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_callsite_PojoMetaMethodSite$PojoCachedMethodSite_1995.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_runtime_callsite_PojoMetaMethodSite$PojoCachedMethodSiteNoUnwrap_1911.bytes" />
+    <ignored path=".slcache/org_eclipse_sisu_inject_LazyBeanEntry_4333.bytes" />
+    <ignored path=".slcache/org_eclipse_sisu_inject_QualifyingStrategy$4_1905.bytes" />
+    <ignored path=".slcache/org_eclipse_sisu_inject_TypeArguments_4895.bytes" />
+    <ignored path=".slcache/org_eclipse_sisu_plexus_ClassRealmUtils_2913.bytes" />
+    <ignored path=".slcache/org_eclipse_sisu_plexus_PlexusAnnotatedBeanModule$PlexusAnnotatedBeanSource_1348.bytes" />
+    <ignored path=".slcache/org_eclipse_sisu_plexus_PlexusPropertyBinder_3645.bytes" />
+    <ignored path=".slcache/org_eclipse_sisu_plexus_PlexusXmlBeanConverter_11330.bytes" />
+    <ignored path=".slcache/org_eclipse_sisu_space_QualifiedTypeBinder_10066.bytes" />
+    <ignored path=".slcache/org_grails_datastore_mapping_reflect_ReflectionUtils_6428.bytes" />
+    <ignored path=".slcache/org_grails_datastore_gorm_finders_DynamicFinder_21777.bytes" />
+    <ignored path=".slcache/org_grails_plugins_web_rest_api_ControllersRestApi_23589.bytes" />
+    <ignored path=".slcache/org_grails_plugins_web_rest_plugin_RestResponderGrailsPlugin_6133.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_vmplugin_VMPluginFactory_1740.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_vmplugin_v7_Java7_3293.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_vmplugin_v5_Java5_20829.bytes" />
+    <ignored path=".slcache/org_codehaus_groovy_vmplugin_v5_PluginDefaultGroovyMethods_3741.bytes" />
+    <ignored path=".slcache/org_codehaus_plexus_interpolation_reflection_ClassMap_7200.bytes" />
+    <ignored path=".slcache/org_codehaus_plexus_interpolation_reflection_ReflectionValueExtractor_3476.bytes" />
+    <ignored path=".slcache/org_eclipse_sisu_bean_BeanProperties_1662.bytes" />
+    <ignored path=".slcache/org_eclipse_aether_impl_DefaultServiceLocator$Entry_4454.bytes" />
+    <ignored path=".slcache/org_eclipse_sisu_bean_BeanPropertySetter_3709.bytes" />
+    <ignored path=".slcache/org_eclipse_sisu_bean_BeanPropertyField_3127.bytes" />
+    <ignored path=".slcache/org_eclipse_sisu_bean_DeclaredMembers$View$1_956.bytes" />
+    <ignored path=".slcache/org_eclipse_sisu_bean_DeclaredMembers$View$3_944.bytes" />
+    <ignored path=".slcache/org_eclipse_sisu_bean_DeclaredMembers$View$2_946.bytes" />
+    <ignored path="data/neo4j/schema/index/lucene/11/segments_1" />
+    <ignored path="data/neo4j/schema/index/lucene/11/segments.gen" />
+    <ignored path="data/neo4j/schema/index/lucene/11/failure-message" />
+    <ignored path="data/neo4j/schema/index/lucene/11/write.lock" />
+    <ignored path="data/neo4j/schema/index/lucene/10/segments_1" />
+    <ignored path="data/neo4j/schema/index/lucene/10/segments.gen" />
+    <ignored path="data/neo4j/schema/index/lucene/10/failure-message" />
+    <ignored path="data/neo4j/schema/index/lucene/10/write.lock" />
+    <ignored path="data/neo4j/schema/index/lucene/9/segments_1" />
+    <ignored path="data/neo4j/schema/index/lucene/9/segments.gen" />
+    <ignored path="data/neo4j/schema/index/lucene/9/failure-message" />
+    <ignored path="data/neo4j/schema/index/lucene/9/write.lock" />
+    <ignored path="data/neo4j/schema/index/lucene/8/segments.gen" />
+    <ignored path="data/neo4j/schema/index/lucene/8/failure-message" />
+    <ignored path="data/neo4j/schema/index/lucene/8/write.lock" />
+    <ignored path="data/neo4j/schema/index/lucene/8/_0.cfs" />
+    <ignored path="data/neo4j/schema/index/lucene/7/failure-message" />
+    <ignored path="data/neo4j/schema/index/lucene/7/segments.gen" />
+    <ignored path="data/neo4j/schema/index/lucene/7/_0.cfs" />
+    <ignored path="data/neo4j/schema/index/lucene/7/write.lock" />
+    <ignored path="data/neo4j/schema/index/lucene/6/segments.gen" />
+    <ignored path="data/neo4j/schema/index/lucene/6/write.lock" />
+    <ignored path="data/neo4j/schema/index/lucene/6/failure-message" />
+    <ignored path="data/neo4j/schema/index/lucene/6/_0.cfs" />
+    <ignored path="data/neo4j/schema/index/lucene/5/failure-message" />
+    <ignored path="data/neo4j/schema/index/lucene/5/segments.gen" />
+    <ignored path="data/neo4j/schema/index/lucene/5/_0.cfs" />
+    <ignored path="data/neo4j/schema/index/lucene/5/write.lock" />
+    <ignored path="data/neo4j/schema/index/lucene/4/failure-message" />
+    <ignored path="data/neo4j/schema/index/lucene/4/write.lock" />
+    <ignored path="data/neo4j/schema/index/lucene/4/segments.gen" />
+    <ignored path="data/neo4j/schema/index/lucene/3/segments.gen" />
+    <ignored path="data/neo4j/schema/index/lucene/3/failure-message" />
+    <ignored path="data/neo4j/schema/index/lucene/4/_0.cfs" />
+    <ignored path="data/neo4j/schema/index/lucene/2/segments.gen" />
+    <ignored path="data/neo4j/schema/index/lucene/3/write.lock" />
+    <ignored path="data/neo4j/schema/index/lucene/3/_0.cfs" />
+    <ignored path="data/neo4j/schema/index/lucene/2/_0.cfs" />
+    <ignored path="data/neo4j/schema/index/lucene/2/failure-message" />
+    <ignored path="data/neo4j/schema/index/lucene/2/write.lock" />
+    <ignored path="data/neo4j/schema/index/lucene/1/_0.cfs" />
+    <ignored path="data/neo4j/schema/index/lucene/1/write.lock" />
+    <ignored path="data/neo4j/schema/index/lucene/1/failure-message" />
+    <ignored path="data/neo4j/schema/index/lucene/1/segments.gen" />
+    <ignored path="data/neo4j/neostore.propertystore.db.index" />
+    <ignored path="data/neo4j/neostore.labeltokenstore.db.names" />
+    <ignored path="data/neo4j/neostore.propertystore.db.index.keys" />
+    <ignored path="data/neo4j/neostore.nodestore.db.id" />
+    <ignored path="data/neo4j/schema/index/lucene/2/segments_2" />
+    <ignored path="data/neo4j/neostore.relationshipgroupstore.db" />
+    <ignored path="data/neo4j/schema/index/lucene/8/segments_2" />
+    <ignored path="data/neo4j/schema/index/lucene/1/segments_2" />
+    <ignored path="data/neo4j/neostore.labeltokenstore.db" />
+    <ignored path="data/neo4j/neostore.propertystore.db.strings.id" />
+    <ignored path="data/neo4j/schema/index/lucene/3/segments_2" />
+    <ignored path="data/neo4j/schema/label/lucene/segments.gen" />
+    <ignored path="data/neo4j/neostore.nodestore.db.labels.id" />
+    <ignored path="data/neo4j/neostore.nodestore.db.labels" />
+    <ignored path="data/neo4j/schema/index/lucene/5/segments_2" />
+    <ignored path="data/neo4j/messages.log" />
+    <ignored path="data/neo4j/schema/index/lucene/4/segments_2" />
+    <ignored path="data/neo4j/store_lock" />
+    <ignored path="data/neo4j/schema/index/lucene/7/segments_2" />
+    <ignored path="data/neo4j/neostore.propertystore.db.index.id" />
+    <ignored path="data/neo4j/schema/index/lucene/6/segments_2" />
+    <ignored path="data/neo4j/neostore.relationshipstore.db" />
+    <ignored path="data/neo4j/neostore.counts.db.b" />
+    <ignored path="data/neo4j/schema/label/lucene/segments_1" />
+    <ignored path="data/neo4j/neostore.propertystore.db.index.keys.id" />
+    <ignored path="data/neo4j/neostore.propertystore.db.arrays.id" />
+    <ignored path="data/neo4j/neostore.relationshiptypestore.db" />
+    <ignored path="data/neo4j/neostore.schemastore.db" />
+    <ignored path="data/neo4j/neostore.relationshipstore.db.id" />
+    <ignored path="data/neo4j/neostore.propertystore.db" />
+    <ignored path="data/neo4j/neostore.id" />
+    <ignored path="data/neo4j/neostore" />
+    <ignored path="data/neo4j/neostore.counts.db.a" />
+    <ignored path="data/neo4j/neostore.propertystore.db.id" />
+    <ignored path="data/neo4j/neostore.schemastore.db.id" />
+    <ignored path="data/neo4j/neostore.relationshipgroupstore.db.id" />
+    <ignored path="data/neo4j/neostore.transaction.db.0" />
+    <ignored path="data/neo4j/neostore.propertystore.db.arrays" />
+    <ignored path="data/neo4j/schema/label/lucene/write.lock" />
+    <ignored path="data/neo4j/neostore.relationshiptypestore.db.id" />
+    <ignored path="data/neo4j/schema/label/lucene/_0.cfs" />
+    <ignored path="data/neo4j/neostore.relationshiptypestore.db.names" />
+    <ignored path="data/neo4j/neostore.labeltokenstore.db.names.id" />
+    <ignored path="data/neo4j/neostore.labeltokenstore.db.id" />
+    <ignored path="data/neo4j/neostore.relationshiptypestore.db.names.id" />
+    <ignored path="data/neo4j/neostore.nodestore.db" />
+    <ignored path="data/neo4j/neostore.propertystore.db.strings" />
+    <ignored path="solr/data/index/_4t.fdt" />
+    <ignored path="solr/data/index/_4t.nrm" />
+    <ignored path="solr/data/index/_4r.fnm" />
+    <ignored path="solr/data/index/_4r.fdt" />
+    <ignored path="solr/data/index/_4s.tis" />
+    <ignored path="solr/data/spellchecker/segments.gen" />
+    <ignored path="solr/data/index/_4q.fdx" />
+    <ignored path="solr/data/index/_4q.tii" />
+    <ignored path="solr/data/index/segments.gen" />
+    <ignored path="solr/data/index/_4q.fdt" />
+    <ignored path="solr/data/spellchecker/segments_1" />
+    <ignored path="solr/data/index/_4s.frq" />
+    <ignored path="solr/data/index/_4r.prx" />
+    <ignored path="solr/data/index/_4s.fnm" />
+    <ignored path="solr/data/index/_4t.prx" />
+    <ignored path="solr/data/index/_4s.prx" />
+    <ignored path="solr/data/index/_4r.tii" />
+    <ignored path="solr/data/index/_4t.fnm" />
+    <ignored path="solr/data/index/_4s.fdt" />
+    <ignored path="solr/data/index/_4q.frq" />
+    <ignored path="solr/data/index/_4s.fdx" />
+    <ignored path="solr/data/index/_4q.fnm" />
+    <ignored path="solr/data/index/_4q.prx" />
+    <ignored path="solr/data/index/_4r.tis" />
+    <ignored path="solr/data/index/_4t.tis" />
+    <ignored path="solr/data/index/_4t.tii" />
+    <ignored path="solr/data/index/_4r.nrm" />
+    <ignored path="solr/data/index/segments_4e" />
+    <ignored path="solr/data/index/_4s.nrm" />
+    <ignored path="solr/data/index/_4q.nrm" />
+    <ignored path="solr/data/index/_4t.frq" />
+    <ignored path="solr/data/index/_4r.frq" />
+    <ignored path="solr/data/index/_4t.fdx" />
+    <ignored path="solr/data/index/_4s.tii" />
+    <ignored path="solr/data/index/_4q.tis" />
+    <ignored path="solr/data/index/_4r.fdx" />
+    <ignored path="target/work/plugin-build-classes/TomcatGrailsPlugin.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer$_preStart_closure1$_closure2.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer$_preStart_closure1.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatKillSwitch.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/ParentDelegatingClassLoader.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServer$_closure1.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatLoader.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServerFactory.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServer.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_addEventHookToBinding_closure5.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure2.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure3.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure4.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createExecutionContext_closure1.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_findSystemClasspathJars_closure7.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_findSystemClasspathJars_closure8.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_startSecure_closure6$_closure9.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_startSecure_closure6.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext$_buildMinimalIsolatedClasspath_closure1.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" />
+    <ignored path="target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" />
+    <ignored path="target/work/plugin-classes/AssetPipelineBootStrap$_closure1$_closure2.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure8.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_paramsToHtmlAttr_closure9.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/EmptyResource.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/ProductionAssetCache.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure3.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure4.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure2$_closure11.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure2.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure6.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure7.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure5.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure6$_closure12.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure7.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure6.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure6$_closure16.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure5.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_scanForFiles_closure11.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_scanForFiles_closure10.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure9.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure8.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_createInputStreamClosure_closure2.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_cacheAllResources_closure14.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_cacheAllResources_closure13.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringAssetCache.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure4.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure4$_closure15.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure3.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAsset_closure1.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/CacheConfigArtefactHandler$DefaultCacheConfigGrailsClass.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/CacheConfigArtefactHandler.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/CacheConfiguration.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/CacheEvict.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/CachePut.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/CacheTagLib$_closure1.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/CacheTagLib$_closure2.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_scanForFiles_closure12.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/BlockingCache.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/CacheBeanPostProcessor.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/CacheConfigArtefactHandler$CacheConfigGrailsClass.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService$_clearAllCaches_closure1.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/GrailsCache.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/GrailsCacheManager.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/GrailsConcurrentMapCacheManager.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/GrailsConcurrentMapCache.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/SerializableByteArrayOutputStream.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/GrailsValueWrapper.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/Cacheable.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/ConfigLoader$_sortConfigs_closure1.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/CustomCacheKeyGenerator.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/CustomCacheKeyGenerator$CacheKey.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/GrailsAnnotationCacheOperationSource.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/GrailsAnnotationCacheOperationSource$DefaultCacheKey.class" />
+    <ignored path="target/work/plugin-classes/CacheGrailsPlugin$_closure1$_closure6$_closure8.class" />
+    <ignored path="target/work/plugin-classes/CacheGrailsPlugin$_closure1$_closure6.class" />
+    <ignored path="target/work/plugin-classes/CacheGrailsPlugin$1.class" />
+    <ignored path="target/work/plugin-classes/CacheGrailsPlugin$_closure1$_closure6$_closure8$_closure9.class" />
+    <ignored path="target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure3.class" />
+    <ignored path="target/work/plugin-classes/AssetPipelineGrailsPlugin.class" />
+    <ignored path="target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure3$_closure7$_closure9.class" />
+    <ignored path="target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure3$_closure7.class" />
+    <ignored path="target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure3$_closure6$_closure8.class" />
+    <ignored path="target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure3$_closure6.class" />
+    <ignored path="target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure2$_closure5.class" />
+    <ignored path="target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure2.class" />
+    <ignored path="target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure1.class" />
+    <ignored path="target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure2$_closure4.class" />
+    <ignored path="target/work/plugin-classes/AssetPipelineBootStrap$_closure1.class" />
+    <ignored path="target/work/plugin-classes/AssetPipelineBootStrap.class" />
+    <ignored path="target/work/plugin-classes/Hibernate4GrailsPlugin.class" />
+    <ignored path="target/work/plugin-classes/DefaultWebXmlConfig.class" />
+    <ignored path="target/work/plugin-classes/DefaultWebXmlConfig$_run_closure1.class" />
+    <ignored path="target/work/plugin-classes/DefaultCacheConfig.class" />
+    <ignored path="target/work/plugin-classes/DefaultCacheConfig$_run_closure1.class" />
+    <ignored path="target/work/plugin-classes/DefaultCacheConfig$_run_closure1$_closure3.class" />
+    <ignored path="target/work/plugin-classes/DefaultCacheConfig$_run_closure1$_closure2.class" />
+    <ignored path="target/work/plugin-classes/CacheGrailsPlugin.class" />
+    <ignored path="target/work/plugin-classes/CacheGrailsPlugin$_closure5.class" />
+    <ignored path="target/work/plugin-classes/CacheGrailsPlugin$_closure4.class" />
+    <ignored path="target/work/plugin-classes/CacheGrailsPlugin$_closure3.class" />
+    <ignored path="target/work/plugin-classes/CacheGrailsPlugin$_closure2.class" />
+    <ignored path="target/work/plugin-classes/CacheGrailsPlugin$_closure2$_closure11.class" />
+    <ignored path="target/work/plugin-classes/CacheGrailsPlugin$_closure1.class" />
+    <ignored path="target/work/plugin-classes/CacheGrailsPlugin$_closure1$_closure7.class" />
+    <ignored path="target/work/plugin-classes/CacheGrailsPlugin$_closure1$_closure7$_closure10.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure5$_closure12.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure5.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure6$_closure14.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure6.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure3.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure4$_closure11.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure4.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure5$_closure12$_closure13.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure2$_closure8$_closure9.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure2$_closure8.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure2.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure3$_closure10.class" />
+    <ignored path="target/work/plugin-classes/Neo4jGrailsPlugin$_closure1$_closure2.class" />
+    <ignored path="target/work/plugin-classes/Neo4jGrailsPlugin$_closure1$_closure3.class" />
+    <ignored path="target/work/plugin-classes/Neo4jGrailsPlugin$_closure1.class" />
+    <ignored path="target/work/plugin-classes/Neo4jGrailsPlugin.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetProcessorService.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure1.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure1$_closure10.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetPipelineFilter$_doFilter_closure1.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetPipelineFilter.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetPipelineFilter$_doFilter_closure2.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib$_closure1.class" />
+    <ignored path="target/work/plugin-classes/asset/pipeline/grails/AssetAttributes.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin$_closure1.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure7.class" />
+    <ignored path="target/work/plugin-classes/WebxmlGrailsPlugin.class" />
+    <ignored path="target/classes/BuildConfig$_run_closure1$_closure2.class" />
+    <ignored path="target/classes/BuildConfig$_run_closure1$_closure3.class" />
+    <ignored path="target/classes/BootStrap$_destroyUEFA_closure3.class" />
+    <ignored path="target/classes/BootStrap.class" />
+    <ignored path="target/classes/BuildConfig$_run_closure1$_closure4.class" />
+    <ignored path="target/classes/BuildConfig$_run_closure1$_closure5.class" />
+    <ignored path="target/classes/BuildConfig$_run_closure1$_closure4$_closure6.class" />
+    <ignored path="target/classes/BuildConfig$_run_closure1$_closure4$_closure7.class" />
+    <ignored path="target/classes/Config$_run_closure1$_closure4$_closure5$_closure6.class" />
+    <ignored path="target/classes/Config$_run_closure1$_closure4$_closure5.class" />
+    <ignored path="target/classes/BuildConfig$_run_closure1.class" />
+    <ignored path="target/classes/BuildConfig.class" />
+    <ignored path="target/classes/Config$_run_closure2$_closure7.class" />
+    <ignored path="target/classes/Config$_run_closure2$_closure8.class" />
+    <ignored path="target/classes/Config$_run_closure1$_closure4.class" />
+    <ignored path="target/classes/Config$_run_closure1.class" />
+    <ignored path="target/work/web.xml.tmp" />
+    <ignored path="target/stacktrace.log" />
+    <ignored path="target/classes/BootStrap$_closure2.class" />
+    <ignored path="target/classes/BootStrap$_closure1.class" />
+    <ignored path="target/work/resources/hibernate.cfg.xml" />
+    <ignored path="target/work/resources/web.xml" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/simple/MemoryBlockingCache.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/WebKeyGenerator.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/PageFragmentCachingFilter.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/simple/MemoryPageFragmentCachingFilter.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/simple/MemoryCacheConfiguration.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/Header.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/HttpDateFormatter.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/PageInfo$1.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/PageInfo.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/SerializableCookie.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/AbstractFilter.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/CacheExpressionRootObject.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/CacheOperationContext.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/DefaultWebKeyGenerator.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/ExpressionEvaluator.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/LazyParamAwareEvaluationContext.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/NoOpFilter.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/PageFragmentCachingFilter$1.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/PageFragmentCachingFilter$2.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/filter/PageFragmentCachingFilter$CacheStatus.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/SimpleKeyGenerator$SimpleKey.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/SerializableOutputStream.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/Timer.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/SimpleKeyGenerator.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/compiler/CacheTransformation.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/util/ClassUtils.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/AlreadyGzippedException.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/GenericResponseWrapper$1.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/ContentCacheParameters.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/GenericResponseWrapper$3.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/GenericResponseWrapper$2.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/Header$Type.class" />
+    <ignored path="target/work/plugin-classes/grails/plugin/cache/web/GenericResponseWrapper.class" />
+    <ignored path="target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/view/ScaffoldingViewResolver.class" />
+    <ignored path="target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/view/ScaffoldedGroovyPageView.class" />
+    <ignored path="target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator.class" />
+    <ignored path="target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator$GrailsControllerType.class" />
+    <ignored path="target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" />
+    <ignored path="target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator$_closure1.class" />
+    <ignored path="target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/GrailsTemplateGenerator.class" />
+    <ignored path="target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DomainClassPropertyComparator.class" />
+    <ignored path="target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/SimpleDomainClassPropertyComparator.class" />
+    <ignored path="target/work/plugin-classes/ScaffoldingGrailsPlugin$_getScaffoldedActions_closure7.class" />
+    <ignored path="target/work/plugin-classes/ScaffoldingGrailsPlugin.class" />
+    <ignored path="target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator$1.class" />
+    <ignored path="target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure1$_closure8.class" />
+    <ignored path="target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure1$_closure9.class" />
+    <ignored path="target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure1.class" />
+    <ignored path="target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure2.class" />
+    <ignored path="target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure3.class" />
+    <ignored path="target/work/plugin-classes/ScaffoldingGrailsPlugin$_configureScaffoldingController_closure4.class" />
+    <ignored path="target/work/plugin-classes/ScaffoldingGrailsPlugin$_getScaffoldedActions_closure5.class" />
+    <ignored path="target/work/plugin-classes/ScaffoldingGrailsPlugin$_getScaffoldedActions_closure6.class" />
+    <ignored path="target/classes/app/League$__clinit__closure1.class" />
+    <ignored path="target/classes/app/ClubController.class" />
+    <ignored path="target/classes/app/LeagueController$__tt__deleteLeagues_closure7.class" />
+    <ignored path="target/classes/app/League.class" />
+    <ignored path="target/classes/app/ClubController$_index_closure1.class" />
+    <ignored path="target/classes/app/Club.class" />
+    <ignored path="target/classes/app/ClubController$_update_closure3.class" />
+    <ignored path="target/classes/app/ClubController$_show_closure2.class" />
+    <ignored path="target/classes/app/AbstractGraphDomain.class" />
+    <ignored path="target/classes/app/Club$__clinit__closure1.class" />
+    <ignored path="target/classes/app/AdquiredNationality.class" />
+    <ignored path="target/classes/DataSource.class" />
+    <ignored path="target/classes/DataSource$_run_closure4.class" />
+    <ignored path="target/classes/UrlMappings.class" />
+    <ignored path="target/classes/UrlMappings$__clinit__closure1.class" />
+    <ignored path="target/classes/DataSource$_run_closure4$_closure7.class" />
+    <ignored path="target/classes/DataSource$_run_closure4$_closure8$_closure11$_closure12.class" />
+    <ignored path="target/classes/DataSource$_run_closure4$_closure8$_closure11.class" />
+    <ignored path="target/classes/DataSource$_run_closure4$_closure8.class" />
+    <ignored path="target/classes/DataSource$_run_closure3.class" />
+    <ignored path="target/classes/DataSource$_run_closure4$_closure6$_closure9.class" />
+    <ignored path="target/classes/DataSource$_run_closure4$_closure6.class" />
+    <ignored path="target/classes/DataSource$_run_closure4$_closure7$_closure10.class" />
+    <ignored path="target/classes/Config.class" />
+    <ignored path="target/classes/DataSource$_run_closure1.class" />
+    <ignored path="target/classes/DataSource$_run_closure2.class" />
+    <ignored path="target/classes/DataSource$_run_closure3$_closure5.class" />
+    <ignored path="target/classes/Config$_run_closure2.class" />
+    <ignored path="target/classes/Config$_run_closure3$_closure10.class" />
+    <ignored path="target/classes/Config$_run_closure3$_closure9.class" />
+    <ignored path="target/classes/Config$_run_closure3.class" />
+    <ignored path="target/classes/search/SearchService.class" />
+    <ignored path="target/classes/search/SearchService$_remove_closure3.class" />
+    <ignored path="target/classes/search/SearchService$_initialize_closure1.class" />
+    <ignored path="target/classes/search/SearchService$_index_closure2.class" />
+    <ignored path="target/classes/search/SearchService$_addPropertiesToIndex_closure6.class" />
+    <ignored path="target/classes/search/SearchService$_addPropertiesToIndex_closure5.class" />
+    <ignored path="target/classes/search/SearchService$_addPropertiesToIndex_closure4.class" />
+    <ignored path="target/classes/search/SearchGormListener.class" />
+    <ignored path="target/classes/resources.class" />
+    <ignored path="target/classes/resources$_run_closure1.class" />
+    <ignored path="target/classes/application.properties" />
+    <ignored path="target/classes/app/UefaService.class" />
+    <ignored path="target/classes/app/UefaService$_initialize_closure1.class" />
+    <ignored path="target/classes/app/UefaService$_initUEFA_closure3.class" />
+    <ignored path="target/classes/app/UefaService$_initUEFA_closure3$_closure4.class" />
+    <ignored path="target/classes/app/Tag.class" />
+    <ignored path="target/classes/app/UefaService$_initUEFA_closure2.class" />
+    <ignored path="target/classes/app/Player.class" />
+    <ignored path="target/classes/app/Tag$__clinit__closure1.class" />
+    <ignored path="target/classes/app/NativeNationality$__clinit__closure1.class" />
+    <ignored path="target/classes/app/NativeNationality.class" />
+    <ignored path="target/classes/app/Nationality$__clinit__closure1.class" />
+    <ignored path="target/classes/app/Nationality.class" />
+    <ignored path="target/classes/app/LeagueController$_update_closure3.class" />
+    <ignored path="target/classes/app/LeagueController.class" />
+    <ignored path="target/classes/app/LeagueController$_players_closure6.class" />
+    <ignored path="target/classes/app/LeagueController$_show_closure2.class" />
+    <ignored path="target/classes/app/LeagueController$_deleteLeagues_closure5.class" />
+    <ignored path="target/classes/app/LeagueController$_index_closure1.class" />
+    <ignored path="target/classes/app/LeagueController$__tt__players_closure8.class" />
+    <ignored path="target/classes/app/LeagueController$_addItalianLeague_closure4.class" />
+    <ignored mask="*.class" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,55 +661,37 @@
     <favorites_list name="neo4j-app" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SearchGormListener.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/groovy/search/SearchGormListener.groovy">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SearchService.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/search/SearchService.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
-                <element signature="e#16#53#0" expanded="true" />
+                <element signature="e#15#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UefaService.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/services/app/UefaService.groovy">
+      <file leaf-file-name="SearchController.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/app/SearchController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.19245283">
+              <caret line="6" column="91" selection-start-line="6" selection-start-column="91" selection-end-line="6" selection-end-column="91" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="neo4j-app.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/neo4j-app.iml">
+      <file leaf-file-name="_WebXmlConfig.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/src/samples/_WebXmlConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="neo4j-app-grailsPlugins.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/neo4j-app-grailsPlugins.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deleteAll.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deleteAll.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-              <folding />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -268,47 +700,57 @@
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <caret line="15" column="102" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildConfig.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <file leaf-file-name="LeagueController.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/app/LeagueController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.3833635">
-              <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+            <state vertical-scroll-proportion="-7.3913045">
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSource.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <file leaf-file-name="SolrParams.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/3.6.1/solr-solrj-3.6.1.jar!/org/apache/solr/common/params/SolrParams.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="36" />
+            <state vertical-scroll-proportion="-3.642857">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <file leaf-file-name="solr.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solr/solr.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="1.3846154">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solr/conf/schema.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.0925927">
+              <caret line="992" column="46" selection-start-line="992" selection-start-column="46" selection-end-line="992" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UefaService.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/app/UefaService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -341,7 +783,6 @@
         <option value="$PROJECT_DIR$/grails-app/domain/app/AbstractGraphDomain.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/app/Club.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/app/Player.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/app/LeagueController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/facets/FacetsController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/app/UefaService.groovy" />
@@ -351,9 +792,13 @@
         <option value="$PROJECT_DIR$/grails-app/services/facets/SearchService.groovy" />
         <option value="$PROJECT_DIR$/src/groovy/SearchGormListener.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/app/Nationality.groovy" />
-        <option value="$PROJECT_DIR$/src/groovy/search/SearchGormListener.groovy" />
         <option value="$PROJECT_DIR$/deleteAll.sh" />
+        <option value="$PROJECT_DIR$/src/groovy/search/SearchGormListener.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/solr/conf/schema.xml" />
+        <option value="$PROJECT_DIR$/grails-app/services/search/SearchService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/app/LeagueController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/app/SearchController.groovy" />
       </list>
     </option>
   </component>
@@ -399,8 +844,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -430,7 +875,101 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neo4j-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neo4j-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neo4j-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neo4j-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="solr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neo4j-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neo4j-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neo4j-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neo4j-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neo4j-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neo4j-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -445,9 +984,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FullScreen" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -603,6 +1140,17 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -969,7 +1517,8 @@
       <workItem from="1447692314969" duration="3000" />
       <workItem from="1447692330397" duration="15000" />
       <workItem from="1447699661934" duration="25000" />
-      <workItem from="1447704580050" duration="2741000" />
+      <workItem from="1447704580050" duration="5958000" />
+      <workItem from="1447710552449" duration="2168000" />
     </task>
     <task id="LOCAL-00001" summary="Added SearchService &amp; Solr">
       <created>1447707222424</created>
@@ -977,11 +1526,17 @@
       <option name="project" value="LOCAL" />
       <updated>1447707222424</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed target">
+      <created>1447707330781</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1447707330781</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39632000" />
+    <option name="totallyTimeSpent" value="45017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -996,72 +1551,39 @@
     <frame x="0" y="27" width="1680" height="1023" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39838338" sideWeight="0.514652" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756633" sideWeight="0.495116" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290993" sideWeight="0.495116" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21306472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39838338" sideWeight="0.485348" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39838338" sideWeight="0.485348" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39838338" sideWeight="0.514652" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32678983" sideWeight="0.495116" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290993" sideWeight="0.495116" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32770744" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39838338" sideWeight="0.514652" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756633" sideWeight="0.495116" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.495116" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21306472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32448035" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32770744" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39838338" sideWeight="0.485348" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32678983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1076,7 +1598,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added SearchService &amp; Solr" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SearchService &amp; Solr" />
+    <MESSAGE value="Removed target" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed target" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1088,7 +1611,7 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GrailsRunConfigurationType">
@@ -1103,50 +1626,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Player.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Nationality.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/NativeNationality.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/app/ClubController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1296,13 +1775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solr/solr.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7677419">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.678571">
@@ -1328,17 +1800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.8214285">
           <caret line="27" column="50" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/search/SearchService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.535714">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <element signature="e#16#62#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1348,47 +1809,6 @@
           <caret line="18" column="18" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/app/LeagueController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/AbstractGraphDomain.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.425">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/AdquiredNationality.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.425">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Club.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2125">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/app/League.groovy">
@@ -1406,7 +1826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.425">
           <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
@@ -1417,18 +1836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.85">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Player.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.425">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
@@ -1450,25 +1857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/search/SearchGormListener.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/app/UefaService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1476,7 +1864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1484,7 +1871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1492,38 +1878,162 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.48090693">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35083532">
+          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/search/SearchGormListener.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="e#16#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/AbstractGraphDomain.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.043256998">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/AdquiredNationality.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.043256998">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Club.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.108142495">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Player.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19465649">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solr/solr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3846154">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/app/UefaService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/3.6.1/solr-solrj-3.6.1.jar!/org/apache/solr/client/solrj/SolrQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21935484">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/3.6.1/solr-solrj-3.6.1.jar!/org/apache/solr/common/params/SolrParams.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.642857">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solr/conf/schema.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0925927">
+          <caret line="992" column="46" selection-start-line="992" selection-start-column="46" selection-end-line="992" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/src/samples/_WebXmlConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <caret line="15" column="102" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/services/search/SearchService.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="36" />
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/app/LeagueController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3913045">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/app/SearchController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3833635">
-          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.19245283">
+          <caret line="6" column="91" selection-start-line="6" selection-start-column="91" selection-end-line="6" selection-end-column="91" />
           <folding />
         </state>
       </provider>

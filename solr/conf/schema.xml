@@ -893,7 +893,12 @@
        when adding a document.
    -->
 
-   <field name="id" type="string" indexed="true" stored="true" required="true" /> 
+   <field name="id" type="string" indexed="true" stored="true" required="true" />
+   <field name="__type__" type="string" indexed="true" stored="true" required="true" />
+   <field name="dateCreated" type="tdate"  indexed="true"  stored="true" required="false" />
+   <field name="lastUpdated" type="tdate"  indexed="true"  stored="true" required="false" />
+
+   <!--
    <field name="sku" type="text_en_splitting_tight" indexed="true" stored="true" omitNorms="true"/>
    <field name="name" type="text_general" indexed="true" stored="true"/>
    <field name="alphaNameSort" type="alphaOnlySort" indexed="true" stored="false"/>
@@ -906,19 +911,19 @@
    <field name="price"  type="float" indexed="true" stored="true"/>
    <field name="popularity" type="int" indexed="true" stored="true" />
    <field name="inStock" type="boolean" indexed="true" stored="true" />
-
+    -->
    <!--
    The following store examples are used to demonstrate the various ways one might _CHOOSE_ to
     implement spatial.  It is highly unlikely that you would ever have ALL of these fields defined.
     -->
-   <field name="store" type="location" indexed="true" stored="true"/>
+   <!--field name="store" type="location" indexed="true" stored="true"/-->
 
    <!-- Common metadata fields, named specifically to match up with
      SolrCell metadata when parsing rich documents such as Word, PDF.
      Some fields are multiValued only because Tika currently may return
      multiple values for them.
    -->
-   <field name="title" type="text_general" indexed="true" stored="true" multiValued="true"/>
+   <!--field name="title" type="text_general" indexed="true" stored="true" multiValued="true"/>
    <field name="subject" type="text_general" indexed="true" stored="true"/>
    <field name="description" type="text_general" indexed="true" stored="true"/>
    <field name="comments" type="text_general" indexed="true" stored="true"/>
@@ -927,7 +932,7 @@
    <field name="category" type="text_general" indexed="true" stored="true"/>
    <field name="content_type" type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="last_modified" type="date" indexed="true" stored="true"/>
-   <field name="links" type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="links" type="string" indexed="true" stored="true" multiValued="true"/-->
 
    <!-- catchall field, containing all other searchable text fields (implemented
         via copyField further on in this schema  -->
@@ -939,9 +944,9 @@
 
    <!-- non-tokenized version of manufacturer to make it easier to sort or group
         results by manufacturer.  copied from "manu" via copyField -->
-   <field name="manu_exact" type="string" indexed="true" stored="false"/>
+   <!--field name="manu_exact" type="string" indexed="true" stored="false"/-->
 
-   <field name="payloads" type="payloads" indexed="true" stored="true"/>
+   <!--field name="payloads" type="payloads" indexed="true" stored="true"/-->
 
    <!-- Uncommenting the following will create a "timestamp" field using
         a default value of "NOW" to indicate when each document was indexed.
@@ -983,6 +988,10 @@
    <dynamicField name="*_pi"  type="pint"    indexed="true"  stored="true"/>
    <dynamicField name="*_c"   type="currency" indexed="true"  stored="true"/>
 
+   <!--Used to map one-many relationships -->
+   <dynamicField name="*_list" type="tlong"   indexed="true"  stored="true" multiValued="true" />
+   <dynamicField name="*_st_list" type="string"   indexed="true"  stored="true" multiValued="true" />
+
    <dynamicField name="ignored_*" type="ignored" multiValued="true"/>
    <dynamicField name="attr_*" type="text_general" indexed="true" stored="true" multiValued="true"/>
 
@@ -1013,16 +1022,11 @@
         is added to the index.  It's used either to index the same field differently,
         or to add multiple fields to the same field for easier/faster searching.  -->
 
-   <copyField source="cat" dest="text"/>
-   <copyField source="name" dest="text"/>
-   <copyField source="manu" dest="text"/>
-   <copyField source="features" dest="text"/>
-   <copyField source="includes" dest="text"/>
-   <copyField source="manu" dest="manu_exact"/>
+   <copyField source="*_t" dest="text"/>
+   <!--copyField source="*_t" dest="text"/-->
 
    <!-- Copy the price into a currency enabled field (default USD) -->
-   <copyField source="price" dest="price_c"/>
-	
+
    <!-- Above, multiple source fields are copied to the [text] field. 
 	  Another way to map multiple source fields to the same 
 	  destination field is to use the dynamic field syntax. 
