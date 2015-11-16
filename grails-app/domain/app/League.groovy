@@ -1,8 +1,6 @@
 package app
 
-class League {
-	
-	static mapWith = "neo4j"
+class League extends AbstractGraphDomain {
 
 	String name 
 	Date dateCreated
@@ -16,7 +14,4 @@ class League {
 		name blank: false, unique: true
 	}
 
-	//static mapping = {
-	//	tags fetch: "eager"
-	//}
 }

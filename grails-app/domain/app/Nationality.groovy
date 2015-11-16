@@ -1,6 +1,6 @@
 package app
 
-abstract class Nationality {
+abstract class Nationality extends AbstractGraphDomain {
 
     static mapWith = "none"
 

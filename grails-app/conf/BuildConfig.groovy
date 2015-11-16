@@ -12,11 +12,11 @@ grails.project.fork = [
     //  compile: [maxMemory: 256, minMemory: 64, debug: false, maxPerm: 256, daemon:true],
 
     // configure settings for the test-app JVM, uses the daemon by default
-    test: [maxMemory: 4096, minMemory: 2048, debug: false, maxPerm: 512, daemon:true],
+    test   : [maxMemory: 4096, minMemory: 2048, debug: false, maxPerm: 512, daemon: true],
     // configure settings for the run-app JVM
-    run: [maxMemory: 4096, minMemory: 2048, debug: false, maxPerm: 512, forkReserve:false],
+    run    : [maxMemory: 4096, minMemory: 2048, debug: false, maxPerm: 512, forkReserve: false],
     // configure settings for the run-war JVM
-    war: [maxMemory: 4096, minMemory: 2048, debug: false, maxPerm: 512, forkReserve:false],
+    war    : [maxMemory: 4096, minMemory: 2048, debug: false, maxPerm: 512, forkReserve: false],
     // configure settings for the Console UI JVM
     console: [maxMemory: 4096, minMemory: 2048, debug: false, maxPerm: 512]
 ]
@@ -42,12 +42,28 @@ grails.project.dependency.resolution = {
     }
 
     def neo4jVersion = "2.3.0"
-
+    def solrConfig = "3.6.1"
     dependencies {
         // Neo4j-shell
+        // Neo4j
+        compile "org.neo4j:neo4j:$neo4jVersion",
+                "org.neo4j:neo4j-graphviz:$neo4jVersion",
+                "org.neo4j.app:neo4j-server:$neo4jVersion", {
+
+                    excludes "neo4j-udc", "logback-classic", "logback-access",
+                             "javax.servlet-api", "org.eclipse.jetty.orbit"
+                }
+
         runtime "org.neo4j:neo4j-shell:$neo4jVersion"
 
-        test "org.grails:grails-datastore-test-support:1.0.2-grails-2.4"
+        runtime(group: "org.neo4j", name: "neo4j-kernel", version: neo4jVersion, classifier: "tests")
+
+        runtime(group: "org.neo4j.app", name: "neo4j-server", version: neo4jVersion, classifier: "static-web") {
+            excludes "logback-classic", "logback-access", "javax.servlet-api", "org.eclipse.jetty.orbit"
+        }
+
+        compile "org.apache.solr:solr-solrj:jar:$solrConfig",
+                "org.apache.solr:solr-core:jar:$solrConfig"
     }
 
     plugins {
@@ -59,8 +75,8 @@ grails.project.dependency.resolution = {
         compile ':cache:1.1.8'
         compile ":asset-pipeline:2.5.7"
 
-		compile ":neo4j:5.0.0.BUILD-SNAPSHOT"
-		
+        compile ":neo4j:5.0.0.BUILD-SNAPSHOT"
+
         // plugins needed at runtime but not for compilation
         runtime ":hibernate4:4.3.10" // or ":hibernate:3.6.10.18"
     }

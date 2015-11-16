@@ -1,7 +1,501 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="343df94a-f620-44de-b78c-ccdb2b0689a0" name="Default" comment="" />
+    <list default="true" id="343df94a-f620-44de-b78c-ccdb2b0689a0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/IdeaPrintProjectSettings$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/IdeaPrintProjectSettings.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/LinkedProperties.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/ListEnumeration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deleteAll.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/services/search/SearchService.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/admin-extra.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/currency.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/elevate.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/contractions_ca.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/contractions_fr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/contractions_ga.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/contractions_it.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/hyphenations_ga.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stemdict_nl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stoptags_ja.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_ar.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_bg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_ca.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_cz.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_da.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_de.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_el.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_en.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_es.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_eu.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_fa.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_fi.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_fr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_ga.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_gl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_hi.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_hu.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_hy.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_id.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_it.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_ja.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_lv.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_nl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_no.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_pt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_ro.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_ru.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_sv.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_th.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/stopwords_tr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/lang/userdict_ja.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/mapping-FoldToASCII.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/mapping-ISOLatin1Accent.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/protwords.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/schema.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/scripts.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/solrconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/spellings.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/stopwords.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/synonyms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/VM_global_library.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/browse.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/cluster.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/clusterResults.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/doc.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/facet_fields.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/facet_queries.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/facet_ranges.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/facets.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/footer.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/head.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/header.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/hit.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/hitGrouped.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/jquery.autocomplete.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/jquery.autocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/layout.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/query.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/querySpatial.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/suggest.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/velocity/tabs.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/xslt/example.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/xslt/example_atom.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/xslt/example_rss.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/xslt/luke.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/xslt/updateXml.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/solr.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/search/SearchGormListener.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/search/FacetsControllerSpec.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/search/SearchServiceSpec.groovy" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/messages.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.counts.db.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.counts.db.b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.labeltokenstore.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.labeltokenstore.db.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.labeltokenstore.db.names" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.labeltokenstore.db.names.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.nodestore.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.nodestore.db.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.nodestore.db.labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.nodestore.db.labels.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.propertystore.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.propertystore.db.arrays" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.propertystore.db.arrays.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.propertystore.db.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.propertystore.db.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.propertystore.db.index.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.propertystore.db.index.keys" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.propertystore.db.index.keys.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.propertystore.db.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.propertystore.db.strings.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.relationshipgroupstore.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.relationshipgroupstore.db.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.relationshipstore.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.relationshipstore.db.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.relationshiptypestore.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.relationshiptypestore.db.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.relationshiptypestore.db.names" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.relationshiptypestore.db.names.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.schemastore.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.schemastore.db.id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/neostore.transaction.db.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/1/_0.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/1/failure-message" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/1/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/1/segments_2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/1/write.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/10/_0.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/10/failure-message" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/10/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/10/segments_2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/10/write.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/11/failure-message" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/11/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/11/segments_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/11/write.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/2/failure-message" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/2/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/2/segments_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/2/write.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/3/_0.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/3/failure-message" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/3/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/3/segments_2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/3/write.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/4/_4.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/4/failure-message" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/4/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/4/segments_3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/4/write.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/5/_0.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/5/failure-message" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/5/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/5/segments_2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/5/write.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/6/_8.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/6/failure-message" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/6/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/6/segments_4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/6/write.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/7/_0.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/7/failure-message" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/7/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/7/segments_2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/7/write.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/8/_2.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/8/failure-message" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/8/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/8/segments_3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/8/write.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/9/_0.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/9/failure-message" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/9/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/9/segments_2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/index/lucene/9/write.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/label/lucene/_0.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/label/lucene/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/label/lucene/segments_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/schema/label/lucene/write.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/neo4j/store_lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure1$_closure6$_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure1$_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_destroyUEFA_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_initUEFA_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_initUEFA_closure4$_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_initUEFA_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BootStrap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure4$_closure5$_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure4$_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2$_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2$_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure3$_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure3$_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Config.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure4$_closure6$_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure4$_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure4$_closure7$_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure4$_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure4$_closure8$_closure11$_closure12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure4$_closure8$_closure11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure4$_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UrlMappings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/AbstractGraphDomain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/AdquiredNationality.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/Club$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/Club.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/ClubController$_index_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/ClubController$_show_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/ClubController$_update_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/ClubController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/League$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/League.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/LeagueController$__tt__deleteLeagues_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/LeagueController$__tt__players_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/LeagueController$_addItalianLeague_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/LeagueController$_deleteLeagues_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/LeagueController$_index_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/LeagueController$_players_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/LeagueController$_show_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/LeagueController$_update_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/LeagueController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/Nationality$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/Nationality.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/NativeNationality$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/NativeNationality.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/Tag$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/Tag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/app/UefaService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/resources$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/resources.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/TomcatGrailsPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer$_preStart_closure1$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer$_preStart_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/ParentDelegatingClassLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatKillSwitch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServer$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServerFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_addEventHookToBinding_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createExecutionContext_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_findSystemClasspathJars_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_findSystemClasspathJars_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_startSecure_closure6$_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_startSecure_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext$_buildMinimalIsolatedClasspath_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap$_closure1$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure2$_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure2$_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure3$_closure6$_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure3$_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure3$_closure7$_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure3$_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure1$_closure6$_closure8$_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure1$_closure6$_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure1$_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure1$_closure7$_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure1$_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure2$_closure11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig$_run_closure1$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig$_run_closure1$_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/Hibernate4GrailsPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/Neo4jGrailsPlugin$_closure1$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/Neo4jGrailsPlugin$_closure1$_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/Neo4jGrailsPlugin$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/Neo4jGrailsPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure1$_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure1$_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_configureScaffoldingController_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_getScaffoldedActions_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_getScaffoldedActions_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_getScaffoldedActions_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/TomcatGrailsPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure2$_closure8$_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure2$_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure3$_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure4$_closure11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure5$_closure12$_closure13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure5$_closure12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure6$_closure14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1$_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetAttributes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetPipelineFilter$_doFilter_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetPipelineFilter$_doFilter_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetPipelineFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetProcessorService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure1$_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure2$_closure11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure6$_closure12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib$_paramsToHtmlAttr_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/ProductionAssetCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/EmptyResource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringAssetCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_cacheAllResources_closure13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_cacheAllResources_closure14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_createInputStreamClosure_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAsset_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure4$_closure15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure6$_closure16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_getAssets_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_scanForFiles_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_scanForFiles_closure11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver$_scanForFiles_closure12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/fs/SpringResourceAssetResolver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/BlockingCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheBeanPostProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheConfigArtefactHandler$CacheConfigGrailsClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheConfigArtefactHandler$DefaultCacheConfigGrailsClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheConfigArtefactHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheEvict.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CachePut.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/Cacheable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader$_sortConfigs_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CustomCacheKeyGenerator$CacheKey.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CustomCacheKeyGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsAnnotationCacheOperationSource$DefaultCacheKey.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsAnnotationCacheOperationSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService$_clearAllCaches_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsConcurrentMapCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsConcurrentMapCacheManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsValueWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/SerializableByteArrayOutputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/SerializableOutputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/SimpleKeyGenerator$SimpleKey.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/SimpleKeyGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/Timer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/compiler/CacheTransformation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/util/ClassUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/AlreadyGzippedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/ContentCacheParameters.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/GenericResponseWrapper$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/GenericResponseWrapper$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/GenericResponseWrapper$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/GenericResponseWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/Header$Type.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/Header.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/HttpDateFormatter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/PageInfo$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/PageInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/SerializableCookie.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/AbstractFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/CacheExpressionRootObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/CacheOperationContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/DefaultWebKeyGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/ExpressionEvaluator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/LazyParamAwareEvaluationContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/NoOpFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/PageFragmentCachingFilter$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/PageFragmentCachingFilter$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/PageFragmentCachingFilter$CacheStatus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/PageFragmentCachingFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/WebKeyGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/simple/MemoryBlockingCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/simple/MemoryCacheConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/simple/MemoryPageFragmentCachingFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator$GrailsControllerType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DomainClassPropertyComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/GrailsTemplateGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/SimpleDomainClassPropertyComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/view/ScaffoldedGroovyPageView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/view/ScaffoldingViewResolver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer$_preStart_closure1$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer$_preStart_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/ParentDelegatingClassLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/TomcatKillSwitch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/TomcatLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/TomcatServer$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/TomcatServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/TomcatServerFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_addEventHookToBinding_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createExecutionContext_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_findSystemClasspathJars_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_findSystemClasspathJars_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_startSecure_closure6$_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_startSecure_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext$_buildMinimalIsolatedClasspath_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/resources/hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/resources/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/app/League.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/app/League.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/app/Nationality.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/app/Nationality.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/app/UefaService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/app/UefaService.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neo4j-app-grailsPlugins.iml" afterPath="$PROJECT_DIR$/neo4j-app-grailsPlugins.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neo4j-app.iml" afterPath="$PROJECT_DIR$/neo4j-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/neo4j-5.0.0.BUILD-SNAPSHOT/Neo4jGrailsPlugin.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/neo4j-5.0.0.BUILD-SNAPSHOT/Neo4jGrailsPlugin.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/LICENSE.txt" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/grails-app/conf/DefaultWebXmlConfig.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/grails-app/conf/DefaultWebXmlConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/src/samples/_WebXmlConfig.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1/src/samples/_WebXmlConfig.groovy" />
+    </list>
     <ignored path="neo4j-app.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,88 +518,117 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BootStrap.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+      <file leaf-file-name="SearchGormListener.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/groovy/search/SearchGormListener.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#16#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClubController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/app/ClubController.groovy">
+      <file leaf-file-name="UefaService.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/app/UefaService.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeagueController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/app/LeagueController.groovy">
+      <file leaf-file-name="neo4j-app.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neo4j-app.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Club.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Club.groovy">
+      <file leaf-file-name="neo4j-app-grailsPlugins.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neo4j-app-grailsPlugins.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UrlMappings.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Player.groovy">
+      <file leaf-file-name="deleteAll.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deleteAll.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="League.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/app/League.groovy">
+      <file leaf-file-name="BootStrap.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48177496">
-              <caret line="19" column="58" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.3833635">
+              <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSource.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="BRINQA-2459" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -115,24 +638,33 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/services/app/UefaService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/app/ExecutiveMember.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/app/Member.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/app/Nationality.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/app/NativeNationality.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/app/AdquiredNationality.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/app/ClubController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/app/AbstractGraphDomain.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/app/Club.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/app/Player.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/app/League.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/app/LeagueController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/facets/FacetsController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/app/UefaService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/app/League.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/facets/FacetService.groovy" />
+        <option value="$PROJECT_DIR$/src/groovy/FacetsGormListener.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/facets/SearchService.groovy" />
+        <option value="$PROJECT_DIR$/src/groovy/SearchGormListener.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/app/Nationality.groovy" />
+        <option value="$PROJECT_DIR$/src/groovy/search/SearchGormListener.groovy" />
+        <option value="$PROJECT_DIR$/deleteAll.sh" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
@@ -143,16 +675,12 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="NamedScopeManager">
-    <order />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1436" />
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="827" />
+    <option name="y" value="27" />
+    <option name="width" value="1680" />
+    <option name="height" value="1023" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -173,11 +701,13 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,29 +736,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="neo4j-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="neo4j-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="solr" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -244,6 +752,17 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/solr" />
+    </key>
   </component>
   <component name="RunManager" selected="Grails.Grails:neo4j-app">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -270,6 +789,15 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -291,6 +819,15 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -313,6 +850,65 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -409,6 +1005,15 @@
       <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -430,12 +1035,62 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="neo4j-app" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -444,6 +1099,36 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -480,6 +1165,34 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -489,10 +1202,31 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <configuration default="false" name="Grails:neo4j-app" type="GrailsRunConfigurationType" factoryName="Grails">
@@ -508,6 +1242,11 @@
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Grails.Grails:neo4j-app" />
     </list>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -525,48 +1264,102 @@
       <workItem from="1446762462091" duration="9486000" />
       <workItem from="1446842170329" duration="3168000" />
       <workItem from="1446850196639" duration="24000" />
+      <workItem from="1447421846011" duration="2675000" />
+      <workItem from="1447424539973" duration="7677000" />
+      <workItem from="1447433950677" duration="53000" />
+      <workItem from="1447687610643" duration="680000" />
+      <workItem from="1447688334640" duration="91000" />
+      <workItem from="1447688595030" duration="167000" />
+      <workItem from="1447688778772" duration="1370000" />
+      <workItem from="1447692097602" duration="194000" />
+      <workItem from="1447692314969" duration="3000" />
+      <workItem from="1447692330397" duration="15000" />
+      <workItem from="1447699661934" duration="25000" />
+      <workItem from="1447704580050" duration="2590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23941000" />
+    <option name="totallyTimeSpent" value="39481000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1436" y="23" width="1440" height="827" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="27" width="1680" height="1023" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32770744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32630098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32770744" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39838338" sideWeight="0.485348" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39838338" sideWeight="0.514652" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756633" sideWeight="0.495116" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290993" sideWeight="0.495116" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21306472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32770744" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39838338" sideWeight="0.514652" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756633" sideWeight="0.495116" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.495116" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.497558" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21306472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32770744" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39838338" sideWeight="0.485348" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -581,7 +1374,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/grails-app/controllers/facets/FacetsController.groovy</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GrailsRunConfigurationType">
@@ -591,109 +1392,15 @@
       </configuration>
     </watches-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/app/ClubController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/app/LeagueController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Club.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Player.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/League.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Club.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/AbstractGraphDomain.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/League.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Player.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
@@ -704,7 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
@@ -715,7 +1421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,9 +1438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,7 +1445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +1452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +1459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,7 +1466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,7 +1473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
@@ -786,7 +1483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
@@ -797,7 +1493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,9 +1510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -825,7 +1517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,7 +1524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,7 +1538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +1545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,9 +1552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,7 +1559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +1566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -893,22 +1576,234 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/app/UefaService.groovy">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-core/3.6.1/solr-core-3.6.1.jar!/org/apache/solr/core/CoreContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1302682">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solr/conf/lang/stemdict_nl.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solr/solr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7677419">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.678571">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/spring/resources.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-core/3.6.1/solr-core-3.6.1.jar!/org/apache/solr/client/solrj/embedded/EmbeddedSolrServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8214285">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/AdquiredNationality.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/services/search/SearchService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.61538464">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        <state vertical-scroll-proportion="-5.535714">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="e#16#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/app/ClubController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/app/LeagueController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/AbstractGraphDomain.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.425">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/AdquiredNationality.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.425">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Club.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2125">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/League.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1875">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Nationality.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.425">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/NativeNationality.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.85">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Player.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.425">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Tag.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.425">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/search/SearchGormListener.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/app/UefaService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neo4j-app-grailsPlugins.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neo4j-app.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteAll.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="36" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
@@ -919,102 +1814,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/AbstractGraphDomain.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0802005">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Nationality.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20050125">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.3833635">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/NativeNationality.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.160401">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Player.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/Club.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/app/ClubController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/app/LeagueController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/app/League.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48177496">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
   </component>
@@ -1024,7 +1829,7 @@
         <entry key="neo4j-app">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="-249709852" />
+              <option name="buildConfigCrc" value="-931118863" />
               <option name="pluginDependenciesCrc" value="-1237394575" />
               <option name="properties">
                 <map>
@@ -1046,5 +1851,93 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>grails-2.3.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>neo4j-app</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
