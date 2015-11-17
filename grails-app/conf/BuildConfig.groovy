@@ -7,7 +7,7 @@ grails.project.target.level = 1.7
 grails.project.source.level = 1.7
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
-grails.project.fork = [
+/*grails.project.fork = [
     // configure settings for compilation JVM, note that if you alter the Groovy version forked compilation is required
     //  compile: [maxMemory: 256, minMemory: 64, debug: false, maxPerm: 256, daemon:true],
 
@@ -19,7 +19,7 @@ grails.project.fork = [
     war    : [maxMemory: 4096, minMemory: 2048, debug: false, maxPerm: 512, forkReserve: false],
     // configure settings for the Console UI JVM
     console: [maxMemory: 4096, minMemory: 2048, debug: false, maxPerm: 512]
-]
+] */
 
 grails.project.dependency.resolver = "maven" // or ivy
 grails.project.dependency.resolution = {
@@ -63,7 +63,9 @@ grails.project.dependency.resolution = {
         }
 
         compile "org.apache.solr:solr-solrj:jar:$solrConfig",
-                "org.apache.solr:solr-core:jar:$solrConfig"
+                "org.apache.solr:solr-core:jar:$solrConfig",
+                //Required just for solr http client
+                'org.apache.httpcomponents:httpclient:jar:4.5.1'
     }
 
     plugins {

@@ -67,7 +67,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-datastore-gorm-neo4j/5.0.0.BUILD-SNAPSHOT/grails-datastore-gorm-neo4j-5.0.0.BUILD-SNAPSHOT.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-datastore-gorm-grails2-support/5.0.0.BUILD-SNAPSHOT/grails-datastore-gorm-grails2-support-5.0.0.BUILD-SNAPSHOT.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy/2.4.4/groovy-2.4.4.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/args4j/args4j/2.0.26/args4j-2.0.26.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/google/javascript/closure-compiler-externs/v20141023/closure-compiler-externs-v20141023.jar!/" />
@@ -173,6 +172,9 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/woodstox/wstx-asl/3.2.7/wstx-asl-3.2.7.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/neo4j/app/neo4j-server/2.3.0/neo4j-server-2.3.0-static-web.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/2.3.0/neo4j-kernel-2.3.0-tests.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

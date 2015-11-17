@@ -1,6 +1,8 @@
 package app
 
 import grails.test.mixin.TestFor
+
+import app.search.SearchController
 import spock.lang.Specification
 
 /**

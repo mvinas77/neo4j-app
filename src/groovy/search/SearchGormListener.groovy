@@ -11,6 +11,7 @@ import org.grails.datastore.mapping.engine.event.AbstractPersistenceEventListene
 import org.grails.datastore.mapping.engine.event.EventType
 
 import app.AbstractGraphDomain
+import app.search.SearchService
 
 class SearchGormListener extends AbstractPersistenceEventListener {
 

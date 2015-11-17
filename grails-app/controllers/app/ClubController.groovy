@@ -1,6 +1,6 @@
 package app
 
-import grails.transaction.Transactional 
+import grails.transaction.Transactional
 
 import static org.springframework.http.HttpStatus.CREATED
 import static org.springframework.http.HttpStatus.NOT_ACCEPTABLE
