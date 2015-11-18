@@ -1,6 +1,5 @@
 package app.search
 
-import grails.converters.JSON
 import grails.transaction.Transactional
 
 import search.Paging
@@ -13,7 +12,7 @@ class SearchController {
     def index(String q, String type, Paging paging) {
         def result = searchService.search(q, type, paging)
 
-        render result as JSON
+        render(view: 'index', model: [result: result])
     }
 
 }

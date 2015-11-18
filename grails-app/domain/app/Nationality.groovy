@@ -8,4 +8,9 @@ abstract class Nationality extends AbstractGraphDomain {
 
     static constraints = {
     }
+
+    public String toString() {
+
+        return 'id' + id + 'Nationality: ' + name
+    }
 }

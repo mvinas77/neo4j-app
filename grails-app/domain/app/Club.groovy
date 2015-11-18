@@ -30,4 +30,8 @@ class Club extends AbstractGraphDomain {
         this.big = big
     }
 
+    public String toString() {
+
+        return 'id: ' + id + 'Club: ' + name
+    }
 }

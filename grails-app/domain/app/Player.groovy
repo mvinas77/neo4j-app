@@ -15,4 +15,8 @@ class Player extends AbstractGraphDomain {
         this.strNationality = nationality.name
     }
 
+    public String toString() {
+
+        return 'id: ' + id + 'Player: ' + name + ', nationality:' + strNationality
+    }
 }

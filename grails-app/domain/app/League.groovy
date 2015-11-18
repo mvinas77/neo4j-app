@@ -14,4 +14,8 @@ class League extends AbstractGraphDomain {
 		name blank: false, unique: true
 	}
 
+	public String toString() {
+
+     return 'id: ' + id + ' League: ' + name
+ }
 }

@@ -30,7 +30,7 @@ class SearchService {
     private static final facets = [
         [name: 'League', solrField: 'facet_league_s', facetField: 'league', facetProperty: 'name', type: Club.name],
 
-        [name: 'Nationality', solrField: 'facet_nationality_s', facetField: 'nationality', type: Player.name],
+        [name: 'Nationality', solrField: 'facet_nationality_s', facetField: 'nationality', facetProperty: 'name', type: Player.name],
 
         [name: 'Tags', solrField: 'facet_tags_st_list', facetField: 'tags', facetProperty: 'name', type: League.name],
     ]
@@ -109,6 +109,8 @@ class SearchService {
     }
 
     public void index(AbstractGraphDomain graphDomain) {
+
+        server.deleteById("${graphDomain.id}")
 
         SolrInputDocument document = new SolrInputDocument();
         document.addField('id', graphDomain.id);
@@ -192,6 +194,8 @@ class SearchService {
 
         SolrDocumentList documentList = response.results
 
+        searchResponse.start = documentList.start
+        searchResponse.end = documentList.start + documentList.size()
         searchResponse.numFound = documentList.numFound
 
         documentList.each { SolrDocument document ->
@@ -203,7 +207,7 @@ class SearchService {
             }
         }
 
-        searchResponse.facets << createFacetOptions(response.facetFields)
+        searchResponse.facets = createFacetOptions(response.facetFields)
 
         return searchResponse
     }
@@ -217,7 +221,7 @@ class SearchService {
 
             Facet facet = new Facet()
             facet.name = definition ? definition.name : facetField.name
-            facet.count = facetField.valueCount
+            long count = 0
             facet.options = []
 
             facetField.values?.each {
@@ -225,9 +229,11 @@ class SearchService {
                 Facet option = new Facet()
                 option.name = it.name
                 option.count = it.count
-
+                count += it.count
                 facet.options << option
             }
+
+            facet.count = count
 
             facets << facet
         }

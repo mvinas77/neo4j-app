@@ -6,4 +6,9 @@ class NativeNationality extends Nationality {
 
     static constraints = {
     }
+
+    public String toString() {
+
+        return 'id' + id + 'NativeNationality: ' + name
+    }
 }
