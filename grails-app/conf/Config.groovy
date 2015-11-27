@@ -108,9 +108,10 @@ log4j.main = {
            'net.sf.ehcache.hibernate'
 
     debug  'grails.app',
-           'org.grails.datastore.gorm.neo4j'
+           'app'
 }
 
-app.search.solr.mode = 'embedded' // enbedded or server
+app.search.solr.mode = 'server' // embedded or server
 app.search.solr.home = "/home/mvinas/Work/Brinqa/workspace/brinqa/neo4j-app/solr"
-app.search.solr.serverUrl = "http://localhost:8080/solr/gettingstarted"
+app.search.solr.serverUrl = "http://localhost:8983/solr/gettingstarted/"
+app.search.solr.autoIndex=false

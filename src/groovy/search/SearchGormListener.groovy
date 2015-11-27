@@ -16,11 +16,14 @@ import app.search.SearchService
 class SearchGormListener extends AbstractPersistenceEventListener {
 
     private Log log = LogFactory.getLog(SearchGormListener)
+
+    private boolean autoIndex
     private SearchService searchService
 
-    public SearchGormListener(final Datastore datastore, final SearchService searchService) {
+    public SearchGormListener(final Datastore datastore, final SearchService searchService, final config) {
         super(datastore)
         this.searchService = searchService
+        this.autoIndex = (config.app.search.solr.autoIndex == null) ? true : config.app.search.solr.autoIndex
     }
 
     @Override
@@ -28,7 +31,7 @@ class SearchGormListener extends AbstractPersistenceEventListener {
         switch (event.eventType) {
             case EventType.PostInsert:
                 def object = event.entityObject
-                if (object instanceof AbstractGraphDomain) {
+                if (autoIndex && object instanceof AbstractGraphDomain) {
                     searchService.index(object)
                 }
 
@@ -36,14 +39,14 @@ class SearchGormListener extends AbstractPersistenceEventListener {
 
             case EventType.PostUpdate:
                 def object = event.entityObject
-                if (object instanceof AbstractGraphDomain) {
+                if (autoIndex && object instanceof AbstractGraphDomain) {
                     searchService.index(object)
                 }
                 break
 
             case EventType.PostDelete:
                 def object = event.entityObject
-                if (object instanceof AbstractGraphDomain) {
+                if (autoIndex && object instanceof AbstractGraphDomain) {
                     searchService.remove(object)
                 }
                 break

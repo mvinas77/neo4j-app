@@ -894,7 +894,7 @@
    -->
 
    <field name="id" type="string" indexed="true" stored="true" required="true" />
-   <field name="__type__" type="string" indexed="true" stored="true" required="true" />
+   <field name="__type__" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
    <field name="dateCreated" type="tdate"  indexed="true"  stored="true" required="false" />
    <field name="lastUpdated" type="tdate"  indexed="true"  stored="true" required="false" />
 
@@ -1023,6 +1023,7 @@
         or to add multiple fields to the same field for easier/faster searching.  -->
 
    <copyField source="*_t" dest="text"/>
+   <copyField source="*_s" dest="text"/>
    <!--copyField source="*_t" dest="text"/-->
 
    <!-- Copy the price into a currency enabled field (default USD) -->

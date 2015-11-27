@@ -1,23 +1,23 @@
 package app.search
 
+import javax.xml.bind.ValidationException
+
+import org.apache.solr.client.solrj.SolrClient
 import org.apache.solr.client.solrj.SolrQuery
-import org.apache.solr.client.solrj.SolrServer
-import org.apache.solr.client.solrj.embedded.EmbeddedSolrServer
-import org.apache.solr.client.solrj.impl.HttpSolrServer
+import org.apache.solr.client.solrj.impl.HttpSolrClient
 import org.apache.solr.client.solrj.response.FacetField
 import org.apache.solr.client.solrj.response.QueryResponse
 import org.apache.solr.client.solrj.response.UpdateResponse
 import org.apache.solr.common.SolrDocument
 import org.apache.solr.common.SolrDocumentList
 import org.apache.solr.common.SolrInputDocument
-import org.apache.solr.core.CoreContainer
 
 import grails.transaction.Transactional
-import grails.validation.ValidationException
 
 import app.AbstractGraphDomain
 import app.Club
 import app.League
+import app.Person
 import app.Player
 import search.Facet
 import search.Paging
@@ -38,13 +38,80 @@ class SearchService {
     private List<FacetDefinition> facetCache = []
 
     def grailsApplication
-    SolrServer server
+    SolrClient server
 
     public void initialize() {
 
         String mode = grailsApplication.config.app.search.solr.mode
-
         if (!mode) {
+            log.debug('Using default solr mode: Embedded')
+            mode = 'embedded'
+        }
+
+        mode = mode.toLowerCase()
+
+        if (mode == 'embedded') {
+            /*
+               String solrHome = grailsApplication.config.app.search.solr.home
+
+               if (!solrHome) {
+                   log.fatal('Impossible initialize solr: property app.search.solr.home is required')
+                   throw new IllegalArgumentException('Impossible initialize solr: property app.search.solr.home is required')
+               }
+
+               System.setProperty("solr.solr.home", solrHome)
+               CoreContainer.Initializer initializer = new CoreContainer.Initializer()
+               CoreContainer coreContainer = initializer.initialize()
+               EmbeddedSolrServer server = new EmbeddedSolrServer(coreContainer, "")
+               this.server = server    */
+        }
+        else if (mode == 'server') {
+
+            String solrUrl = grailsApplication.config.app.search.solr.serverUrl
+
+            if (!solrUrl) {
+                log.fatal('Impossible initialize solr: property app.search.solr.serverUrl is required')
+                throw new IllegalArgumentException('Impossible initialize solr: property app.search.solr.serverUrl is required')
+            }
+            HttpSolrClient server = new HttpSolrClient(solrUrl);
+            this.server = server
+
+        }
+        else {
+
+            log.fatal("Impossible initialize solr mode unknown: ${mode}")
+            throw new IllegalArgumentException("Impossible initialize solr mode unknown: ${mode}")
+
+        }
+
+        if (FacetDefinition.count == 0) {
+
+            facets.each { Map facetDef ->
+
+                FacetDefinition facet = new FacetDefinition(facetDef)
+
+                if (facet.validate()) {
+                    facet.save(validate: false)
+
+                }
+                else {
+
+                    throw new ValidationException('facet validation', facet.errors)
+                }
+
+                this.facetCache << facet
+            }
+        }
+        else {
+            this.facetCache.addAll(FacetDefinition.list())
+        }
+    }
+
+    /*
+    public void initialize() {
+
+        String mode = grailsApplication.config.app.search.solr.mode
+                if (!mode) {
             log.debug('Using default solr mode: Embedded')
             mode = 'embedded'
         }
@@ -107,10 +174,9 @@ class SearchService {
             this.facetCache.addAll(FacetDefinition.list())
         }
     }
+    */
 
     public void index(AbstractGraphDomain graphDomain) {
-
-        server.deleteById("${graphDomain.id}")
 
         SolrInputDocument document = new SolrInputDocument();
         document.addField('id', graphDomain.id);
@@ -122,6 +188,39 @@ class SearchService {
         server.commit();
     }
 
+    public void index(List<Long> batch) {
+
+        List<SolrInputDocument> docs = []
+
+        long start = System.currentTimeMillis()
+        batch.each { Long id ->
+
+            Person person = Person.get(id)
+
+            SolrInputDocument document = new SolrInputDocument();
+            document.addField('id', person.id);
+            document.addField('__type__', person.class.name);
+            addPropertiesToIndex(document, person)
+            indexFacets(document, person)
+
+            docs << document
+        }
+
+        long end = System.currentTimeMillis()
+
+        log.debug("Time to build batch was ${end - start}ms.")
+
+        log.debug("adding docs to server....")
+        UpdateResponse response = server.add(docs, -1);
+        log.debug("Time to Push batch was ${System.currentTimeMillis() - end}ms.")
+    }
+
+    public void commit() {
+
+        server.commit()
+    }
+
+
     public def search(String textToSearch, String type = null, Paging paging = null) {
 
         long starTime = System.currentTimeMillis()
@@ -130,7 +229,6 @@ class SearchService {
             .setType(type)
             .setPaging(paging)
             .build()
-
 
         QueryResponse response = server.query(query)
         //return response
@@ -142,6 +240,7 @@ class SearchService {
         long buildTime = System.currentTimeMillis()
 
         log.debug("=========================================================================")
+        log.debug("Total records found ${searchResponse.numFound} returned ${searchResponse.end - searchResponse.start}")
         log.debug("Solr search done in ${searchTime - starTime} ms.")
         log.debug("Solr reponse Object build in ${buildTime - searchTime} ms.")
         log.debug("Total time was ${buildTime - starTime} ms.")
@@ -187,6 +286,24 @@ class SearchService {
             document.addField('club_list', club?.id)
         }
 
+    }
+
+    private void addPropertiesToIndex(SolrInputDocument document, Person person) {
+
+        document.addField('street_number_i', person.address.number)
+        document.addField('street_street_s', person.address.street)
+        document.addField('street_zip_i', person.address.zip)
+        document.addField('firstName_t', person.firstName)
+        document.addField('lastName_t', person.lastName)
+        document.addField('fullName_t', person.fullName)
+        document.addField('email_s', person.email)
+        document.addField('phone_s', person.phone)
+        document.addField('facet_birthDate_tdt', person.birthDate)
+        document.addField('facet_city_s', person.address.city)
+        document.addField('facet_bloodType_s', person.bloodType.simpleName)
+        document.addField('facet_nationality_s', person.nationality)
+        document.addField('facet_occupation_s', person.occupation)
+        document.addField('facet_status_s', person.status)
     }
 
     private SearchResponse createSearchResponse(QueryResponse response) {
@@ -244,7 +361,7 @@ class SearchService {
     private Object getNeo4jObject(SolrDocument document) {
 
         Long id = Long.valueOf((String) document.getFieldValue('id'))
-        String type = document.getFieldValue('__type__')
+        String type = document.getFirstValue('__type__')
         Class klass = getClass().getClassLoader().loadClass(type)
 
         if (klass) {

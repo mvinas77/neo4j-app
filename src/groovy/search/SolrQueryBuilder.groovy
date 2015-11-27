@@ -45,9 +45,9 @@ class SolrQueryBuilder {
 
         SearchService searchService = Holders.applicationContext.getBean('searchService')
 
-        searchService.getFacets(typeClass).each {
+    /*    searchService.getFacets(typeClass).each {
             query.addFacetField(it.solrField)
-        }
+        } */
 
         if (paging?.limit) {
             query.setRows(paging.limit)

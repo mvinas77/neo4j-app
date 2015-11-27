@@ -10,10 +10,13 @@ class BootStrap {
     def init = { servletContext ->
         searchService.initialize()
 
+
         def applicationContext = grailsApplication.mainContext
         def neo4jDataStore = applicationContext.getBean('neo4jDatastore')
         def searchService = applicationContext.getBean('searchService')
-        applicationContext.addApplicationListener(new SearchGormListener(neo4jDataStore, searchService))
+        def grailsApplication = applicationContext.getBean('grailsApplication')
+        def config = grailsApplication.config
+        applicationContext.addApplicationListener(new SearchGormListener(neo4jDataStore, searchService, config))
 
         uefaService.initialize()
     }

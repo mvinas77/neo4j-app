@@ -42,7 +42,7 @@ grails.project.dependency.resolution = {
     }
 
     def neo4jVersion = "2.3.0"
-    def solrConfig = "3.6.1"
+    def solrConfig = "5.3.1"
     dependencies {
         // Neo4j-shell
         // Neo4j
@@ -62,10 +62,11 @@ grails.project.dependency.resolution = {
             excludes "logback-classic", "logback-access", "javax.servlet-api", "org.eclipse.jetty.orbit"
         }
 
-        compile "org.apache.solr:solr-solrj:jar:$solrConfig",
-                "org.apache.solr:solr-core:jar:$solrConfig",
+        compile "org.apache.solr:solr-solrj:jar:$solrConfig"
+              //  "org.apache.solr:solr-core:jar:$solrConfig",
                 //Required just for solr http client
-                'org.apache.httpcomponents:httpclient:jar:4.5.1'
+              //  'org.apache.httpcomponents:httpclient:jar:4.5.1'
+
     }
 
     plugins {
