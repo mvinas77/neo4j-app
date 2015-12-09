@@ -1,24 +1,26 @@
 package app.search
 
-import javax.xml.bind.ValidationException
-
 import org.apache.solr.client.solrj.SolrClient
 import org.apache.solr.client.solrj.SolrQuery
 import org.apache.solr.client.solrj.impl.HttpSolrClient
 import org.apache.solr.client.solrj.response.FacetField
 import org.apache.solr.client.solrj.response.QueryResponse
+import org.apache.solr.client.solrj.response.RangeFacet
 import org.apache.solr.client.solrj.response.UpdateResponse
 import org.apache.solr.common.SolrDocument
 import org.apache.solr.common.SolrDocumentList
 import org.apache.solr.common.SolrInputDocument
+import org.apache.solr.common.util.DateUtil
 
 import grails.transaction.Transactional
+import grails.validation.ValidationException
 
 import app.AbstractGraphDomain
 import app.Club
 import app.League
 import app.Person
 import app.Player
+import search.DateRangeUnit
 import search.Facet
 import search.Paging
 import search.SearchResponse
@@ -28,11 +30,23 @@ import search.SolrQueryBuilder
 class SearchService {
 
     private static final facets = [
-        [name: 'League', solrField: 'facet_league_s', facetField: 'league', facetProperty: 'name', type: Club.name],
-
-        [name: 'Nationality', solrField: 'facet_nationality_s', facetField: 'nationality', facetProperty: 'name', type: Player.name],
-
-        [name: 'Tags', solrField: 'facet_tags_st_list', facetField: 'tags', facetProperty: 'name', type: League.name],
+        [name: 'LastName', solrField: 'lastName_t', facetField: 'lastName', type: Person.name],
+        [name: 'FirstName', solrField: 'firstName_t', facetField: 'firstName', type: Person.name],
+        [name: 'Blood Type', solrField: 'facet_bloodType_s', facetField: 'bloodType', facetProperty: 'simpleName', type: Person.name],
+        [name: 'City', solrField: 'facet_city_s', facetField: 'address', facetProperty: 'city', type: Person.name],
+        [name: 'Nationality', solrField: 'facet_nationality_s', facetField: 'nationality', type: Person.name],
+        [name: 'Occupation', solrField: 'facet_occupation_s', facetField: 'occupation', type: Person.name],
+        [name: 'Status', solrField: 'facet_status_s', facetField: 'status', type: Person.name],
+        [name: 'Zip', solrField: 'street_zip_i', facetField: 'zip', type: Person.name],
+        [name: 'BirthDate', solrField: 'facet_birthDate_tdt', facetField: 'birthDate', type: Person.name,
+                config: [
+                    type: DateRangeFacetConfig,
+                    rangeStart: new Date(40, 0, 1, 0, 0, 0),
+                    rangeEnd: new Date(100, 0, 1, 0, 0, 0),
+                    increment: 10,
+                    unit: DateRangeUnit.YEAR
+                ]
+        ],
     ]
 
     private List<FacetDefinition> facetCache = []
@@ -42,61 +56,45 @@ class SearchService {
 
     public void initialize() {
 
-        String mode = grailsApplication.config.app.search.solr.mode
-        if (!mode) {
-            log.debug('Using default solr mode: Embedded')
-            mode = 'embedded'
+        String solrUrl = grailsApplication.config.app.search.solr.serverUrl
+
+        if (!solrUrl) {
+            log.fatal('Impossible initialize solr: property app.search.solr.serverUrl is required')
+            throw new IllegalArgumentException('Impossible initialize solr: property app.search.solr.serverUrl is required')
+        }
+        HttpSolrClient server = new HttpSolrClient(solrUrl);
+        this.server = server
+
+        FacetDefinition.list().each { FacetDefinition facetDef ->
+            facetDef.delete()
         }
 
-        mode = mode.toLowerCase()
-
-        if (mode == 'embedded') {
-            /*
-               String solrHome = grailsApplication.config.app.search.solr.home
-
-               if (!solrHome) {
-                   log.fatal('Impossible initialize solr: property app.search.solr.home is required')
-                   throw new IllegalArgumentException('Impossible initialize solr: property app.search.solr.home is required')
-               }
-
-               System.setProperty("solr.solr.home", solrHome)
-               CoreContainer.Initializer initializer = new CoreContainer.Initializer()
-               CoreContainer coreContainer = initializer.initialize()
-               EmbeddedSolrServer server = new EmbeddedSolrServer(coreContainer, "")
-               this.server = server    */
-        }
-        else if (mode == 'server') {
-
-            String solrUrl = grailsApplication.config.app.search.solr.serverUrl
-
-            if (!solrUrl) {
-                log.fatal('Impossible initialize solr: property app.search.solr.serverUrl is required')
-                throw new IllegalArgumentException('Impossible initialize solr: property app.search.solr.serverUrl is required')
-            }
-            HttpSolrClient server = new HttpSolrClient(solrUrl);
-            this.server = server
-
-        }
-        else {
-
-            log.fatal("Impossible initialize solr mode unknown: ${mode}")
-            throw new IllegalArgumentException("Impossible initialize solr mode unknown: ${mode}")
-
-        }
-
-        if (FacetDefinition.count == 0) {
+        if (FacetDefinition.count < facets.size()) {
 
             facets.each { Map facetDef ->
 
-                FacetDefinition facet = new FacetDefinition(facetDef)
+                FacetDefinition facet = FacetDefinition.findByName(facetDef.name)
 
-                if (facet.validate()) {
-                    facet.save(validate: false)
+                if (!facet) {
 
-                }
-                else {
+                    Map configMap = facetDef.remove('config')
+                    facet = new FacetDefinition(facetDef)
 
-                    throw new ValidationException('facet validation', facet.errors)
+                    if (configMap) {
+                        Class configClass = configMap.remove('type')
+                        FacetConfig config = configClass.newInstance()
+                        config.properties = configMap
+                        facet.config = config
+                    }
+
+                    if (facet.validate()) {
+                        log.debug("Facet ${facetDef.name} added")
+                        facet.save(validate: false)
+                    }
+                    else {
+
+                        throw new ValidationException('facet validation', facet.errors)
+                    }
                 }
 
                 this.facetCache << facet
@@ -106,75 +104,6 @@ class SearchService {
             this.facetCache.addAll(FacetDefinition.list())
         }
     }
-
-    /*
-    public void initialize() {
-
-        String mode = grailsApplication.config.app.search.solr.mode
-                if (!mode) {
-            log.debug('Using default solr mode: Embedded')
-            mode = 'embedded'
-        }
-
-        mode = mode.toLowerCase()
-
-        if (mode == 'embedded') {
-
-            String solrHome = grailsApplication.config.app.search.solr.home
-
-            if (!solrHome) {
-                log.fatal('Impossible initialize solr: property app.search.solr.home is required')
-                throw new IllegalArgumentException('Impossible initialize solr: property app.search.solr.home is required')
-            }
-
-            System.setProperty("solr.solr.home", solrHome)
-            CoreContainer.Initializer initializer = new CoreContainer.Initializer()
-            CoreContainer coreContainer = initializer.initialize()
-            EmbeddedSolrServer server = new EmbeddedSolrServer(coreContainer, "")
-            this.server = server
-        }
-        else if (mode == 'server') {
-
-            String solrUrl = grailsApplication.config.app.search.solr.serverUrl
-
-            if (!solrUrl) {
-                log.fatal('Impossible initialize solr: property app.search.solr.serverUrl is required')
-                throw new IllegalArgumentException('Impossible initialize solr: property app.search.solr.serverUrl is required')
-            }
-            HttpSolrServer server = new HttpSolrServer(solrUrl);
-            this.server = server
-
-        }
-        else {
-
-            log.fatal("Impossible initialize solr mode unknown: ${mode}")
-            throw new IllegalArgumentException("Impossible initialize solr mode unknown: ${mode}")
-
-        }
-
-        if (FacetDefinition.count == 0) {
-
-            facets.each { Map facetDef ->
-
-                FacetDefinition facet = new FacetDefinition(facetDef)
-
-                if (facet.validate()) {
-                    facet.save(validate: false)
-
-                }
-                else {
-
-                    throw new ValidationException('facet validation', facet.errors)
-                }
-
-                this.facetCache << facet
-            }
-        }
-        else {
-            this.facetCache.addAll(FacetDefinition.list())
-        }
-    }
-    */
 
     public void index(AbstractGraphDomain graphDomain) {
 
@@ -220,7 +149,6 @@ class SearchService {
         server.commit()
     }
 
-
     public def search(String textToSearch, String type = null, Paging paging = null) {
 
         long starTime = System.currentTimeMillis()
@@ -248,6 +176,34 @@ class SearchService {
 
         return searchResponse
     }
+
+    public def searchSolr(String textToSearch, String type = null, Paging paging = null) {
+
+            long starTime = System.currentTimeMillis()
+            SolrQuery query = new SolrQueryBuilder()
+                .setTextToSearch(textToSearch)
+                .setType(type)
+                .setPaging(paging)
+                .build()
+
+            QueryResponse response = server.query(query)
+            //return response
+
+            long searchTime = System.currentTimeMillis()
+
+            SearchResponse searchResponse = createSearchResponse(response)
+
+            long buildTime = System.currentTimeMillis()
+
+            log.debug("=========================================================================")
+            log.debug("Total records found ${searchResponse.numFound} returned ${searchResponse.end - searchResponse.start}")
+            log.debug("Solr search done in ${searchTime - starTime} ms.")
+            log.debug("Solr reponse Object build in ${buildTime - searchTime} ms.")
+            log.debug("Total time was ${buildTime - starTime} ms.")
+            log.debug("=========================================================================")
+
+            return searchResponse
+        }
 
     public void remove(AbstractGraphDomain graphDomain) {
 
@@ -324,15 +280,15 @@ class SearchService {
             }
         }
 
-        searchResponse.facets = createFacetOptions(response.facetFields)
+        searchResponse.facets = createFacetOptions(response)
 
         return searchResponse
     }
 
-    private List<Facet> createFacetOptions(List<FacetField> facetFields) {
+    private List<Facet> createFacetOptions(QueryResponse response) {
         List<Facet> facets = []
 
-        facetFields?.each { FacetField facetField ->
+        response.facetFields?.each { FacetField facetField ->
 
             FacetDefinition definition = FacetDefinition.findBySolrField(facetField.name)
 
@@ -351,11 +307,47 @@ class SearchService {
             }
 
             facet.count = count
+            facets << facet
+        }
 
+        response.facetRanges?.each { RangeFacet rangeFacet ->
+
+           // FacetDefinition definition = FacetDefinition.findBySolrField(rangeFacet.name)
+            FacetDefinition definition = this.facetCache.find { it.solrField == rangeFacet.name }
+
+            Facet facet = new Facet()
+            facet.name = rangeFacet ? definition.name : rangeFacet.name
+            facet.options = []
+
+            long count = 0
+
+            rangeFacet.counts?.each {
+
+                Facet option = new Facet()
+                option.name = definition?.config ? formatValue(definition.config, it.value) : it.value
+                option.count = it.count
+                count += it.count
+                facet.options << option
+            }
+
+            facet.count = count
             facets << facet
         }
 
         return facets
+    }
+
+    private Object formatValue(DateRangeFacetConfig config, String value) {
+
+        Date date = DateUtil.parseDate(value)
+        Calendar calendar = Calendar.getInstance()
+        calendar.setTime(date)
+
+        def start = calendar.get(config.unit.field)
+        calendar.add(config.unit.field, config.increment)
+        def end = calendar.get(config.unit.field)
+
+        return "${start}-${end}"
     }
 
     private Object getNeo4jObject(SolrDocument document) {
@@ -407,5 +399,4 @@ class SearchService {
             }
         }
     }
-
 }

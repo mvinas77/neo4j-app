@@ -3,6 +3,7 @@ package app.search
 import grails.transaction.Transactional
 
 import search.Paging
+import search.SearchCommand
 
 @Transactional
 class SearchController {
@@ -15,4 +16,10 @@ class SearchController {
         render(view: 'index', model: [result: result])
     }
 
+
+    def searchSolr(SearchCommand command) {
+        def result = searchService.search(q, type, paging)
+
+        render(view: 'index', model: [result: result])
+    }
 }

@@ -9,6 +9,7 @@ class FacetDefinition {
     String facetField
     String facetProperty
     String type
+    FacetConfig config
 
     static constraints = {
         facetField(nullable: false)
@@ -16,5 +17,6 @@ class FacetDefinition {
         name(nullable: false)
         solrField(nullable: false)
         type(nullable: false)
+        config(nullable: true)
     }
 }
